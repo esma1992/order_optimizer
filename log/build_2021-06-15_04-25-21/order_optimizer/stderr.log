@@ -1,0 +1,7 @@
+CMake Error: The current CMakeCache.txt directory /home/knapp/git/order_optimizer_2/build/order_optimizer/CMakeCache.txt is different than the directory /home/knapp/git/order_optimizer/build/order_optimizer where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error at CMakeLists.txt:33 (target_link_libraries):
+  Cannot specify link libraries for target "order_optimizer" which is not
+  built by this project.
+
+
+make: *** [Makefile:310: cmake_check_build_system] Error 1

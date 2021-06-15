@@ -1,0 +1,36 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope; did you mean ‘[01m[Kit[m[K’?
+  123 |             parts[[01;31m[Ki[m[K] >> part_;
+      |                   [01;31m[K^[m[K
+      |                   [32m[Kit[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:124:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’} has no member named ‘[01m[Kas[m[K’; did you mean ‘[01m[Kat[m[K’?
+  124 |             std::cout << "Part: " << part_.part.[01;31m[Kas[m[K<std::string>() << "\n";
+      |                                                 [01;31m[K^~[m[K
+      |                                                 [32m[Kat[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:124:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  124 |             std::cout << "Part: " << part_.part.as<std::string[01;31m[K>[m[K() << "\n";
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:124:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  124 |             std::cout << "Part: " << part_.part.as<std::string>([01;31m[K)[m[K << "\n";
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:125:49:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kas[m[K’ in ‘[01m[Kpart_.part::cx[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+  125 |             std::cout << "Part x: " << part_.cx.[01;31m[Kas[m[K<std::string>() << "\n";
+      |                                                 [01;31m[K^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:125:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  125 |             std::cout << "Part x: " << part_.cx.as<std::string[01;31m[K>[m[K() << "\n";
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:125:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  125 |             std::cout << "Part x: " << part_.cx.as<std::string>([01;31m[K)[m[K << "\n";
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:126:49:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kas[m[K’ in ‘[01m[Kpart_.part::cy[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+  126 |             std::cout << "Part y: " << part_.cy.[01;31m[Kas[m[K<std::string>() << "\n";
+      |                                                 [01;31m[K^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:126:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  126 |             std::cout << "Part y: " << part_.cy.as<std::string[01;31m[K>[m[K() << "\n";
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:126:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  126 |             std::cout << "Part y: " << part_.cy.as<std::string>([01;31m[K)[m[K << "\n";
+      |                                                                 [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,1268 @@
+[1.047s] Invoking command in '/home/knapp/git/order_optimizer/build/order_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knapp/ros2_foxy/install/ros2bag:/home/knapp/ros2_foxy/install/tracetools_launch:/home/knapp/ros2_foxy/install/topic_monitor:/home/knapp/ros2_foxy/install/examples_tf2_py:/home/knapp/ros2_foxy/install/sros2:/home/knapp/ros2_foxy/install/rqt_topic:/home/knapp/ros2_foxy/install/rqt_top:/home/knapp/ros2_foxy/install/rqt_srv:/home/knapp/ros2_foxy/install/rqt_shell:/home/knapp/ros2_foxy/install/rqt_service_caller:/home/knapp/ros2_foxy/install/rqt_reconfigure:/home/knapp/ros2_foxy/install/rqt_py_console:/home/knapp/ros2_foxy/install/rqt_publisher:/home/knapp/ros2_foxy/install/rqt_plot:/home/knapp/ros2_foxy/install/rqt_action:/home/knapp/ros2_foxy/install/rqt_msg:/home/knapp/ros2_foxy/install/rqt:/home/knapp/ros2_foxy/install/rqt_graph:/home/knapp/ros2_foxy/install/rqt_gui_py:/home/knapp/ros2_foxy/install/rqt_gui:/home/knapp/ros2_foxy/install/ros2trace:/home/knapp/ros2_foxy/install/ros2topic:/home/knapp/ros2_foxy/install/ros2test:/home/knapp/ros2_foxy/install/ros2component:/home/knapp/ros2_foxy/install/ros2param:/home/knapp/ros2_foxy/install/ros2lifecycle:/home/knapp/ros2_foxy/install/ros2service:/home/knapp/ros2_foxy/install/ros2run:/home/knapp/ros2_foxy/install/ros2launch:/home/knapp/ros2_foxy/install/ros2pkg:/home/knapp/ros2_foxy/install/ros2node:/home/knapp/ros2_foxy/install/ros2multicast:/home/knapp/ros2_foxy/install/ros2interface:/home/knapp/ros2_foxy/install/ros2doctor:/home/knapp/ros2_foxy/install/ros2action:/home/knapp/ros2_foxy/install/ros2cli:/home/knapp/ros2_foxy/install/quality_of_service_demo_py:/home/knapp/ros2_foxy/install/launch_testing_ros:/home/knapp/ros2_foxy/install/launch_ros:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_service:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_client:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/knapp/ros2_foxy/install/examples_rclpy_executors:/home/knapp/ros2_foxy/install/demo_nodes_py:/home/knapp/ros2_foxy/install/action_tutorials_py:/home/knapp/ros2_foxy/install/ament_uncrustify:/home/knapp/ros2_foxy/install/tracetools_trace:/home/knapp/ros2_foxy/install/tracetools_read:/home/knapp/ros2_foxy/install/test_launch_ros:/home/knapp/ros2_foxy/install/sensor_msgs_py:/home/knapp/ros2_foxy/install/rpyutils:/home/knapp/ros2_foxy/install/rosidl_runtime_py:/home/knapp/ros2_foxy/install/launch_yaml:/home/knapp/ros2_foxy/install/launch_xml:/home/knapp/ros2_foxy/install/launch_testing:/home/knapp/ros2_foxy/install/launch:/home/knapp/ros2_foxy/install/osrf_pycommon:/home/knapp/ros2_foxy/install/domain_coordinator:/home/knapp/ros2_foxy/install/ament_xmllint:/home/knapp/ros2_foxy/install/ament_pyflakes:/home/knapp/ros2_foxy/install/ament_pycodestyle:/home/knapp/ros2_foxy/install/ament_pep257:/home/knapp/ros2_foxy/install/ament_pclint:/home/knapp/ros2_foxy/install/ament_package:/home/knapp/ros2_foxy/install/ament_mypy:/home/knapp/ros2_foxy/install/ament_lint_cmake:/home/knapp/ros2_foxy/install/ament_flake8:/home/knapp/ros2_foxy/install/ament_copyright:/home/knapp/ros2_foxy/install/ament_lint:/home/knapp/ros2_foxy/install/ament_index_python:/home/knapp/ros2_foxy/install/ament_cpplint:/home/knapp/ros2_foxy/install/ament_cppcheck:/home/knapp/ros2_foxy/install/ament_clang_tidy:/home/knapp/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/knapp/git/order_optimizer/build/order_optimizer -- -j1 -l1
+[2.403s] [35m[1mScanning dependencies of target OrderOptimizer[0m
+[2.611s] [ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[9.854s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kint OrderOptimizer::printSolution(int*, int, order, double*)[m[K’:
+[9.856s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:62:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::basic_ostream<char>[m[K’ and ‘[01m[Korder[m[K’)
+[9.856s]    77 |         [32m[Kstd::cerr <<"Working on order "<< order_.order << "("[m[K[01;31m[K<<[m[K[34m[Korder_[m[K<<")"<<std::endl;
+[9.860s]       |         [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K[01;31m[K^~[m[K[34m[K~~~~~~[m[K
+[9.861s]       |                                                        [32m[K|[m[K       [34m[K|[m[K
+[9.861s]       |                                                        [32m[K|[m[K       [34m[Korder[m[K
+[9.861s]       |                                                        [32m[Kstd::basic_ostream<char>[m[K
+[9.861s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[9.864s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.868s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.868s] [01m[K/usr/include/c++/9/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.868s]   108 |       [01;36m[Koperator[m[K<<(__ostream_type& (*__pf)(__ostream_type&))
+[9.868s]       |       [01;36m[K^~~~~~~~[m[K
+[9.868s] [01m[K/usr/include/c++/9/ostream:108:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)[m[K’}
+[9.869s]   108 |       operator<<([01;36m[K__ostream_type& (*__pf)(__ostream_type&)[m[K)
+[9.869s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.869s] [01m[K/usr/include/c++/9/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>][m[K’
+[9.869s]   117 |       [01;36m[Koperator[m[K<<(__ios_type& (*__pf)(__ios_type&))
+[9.869s]       |       [01;36m[K^~~~~~~~[m[K
+[9.869s] [01m[K/usr/include/c++/9/ostream:117:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)[m[K’ {aka ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’}
+[9.869s]   117 |       operator<<([01;36m[K__ios_type& (*__pf)(__ios_type&)[m[K)
+[9.869s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[9.870s] [01m[K/usr/include/c++/9/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.870s]   127 |       [01;36m[Koperator[m[K<<(ios_base& (*__pf) (ios_base&))
+[9.870s]       |       [01;36m[K^~~~~~~~[m[K
+[9.870s] [01m[K/usr/include/c++/9/ostream:127:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+[9.870s]   127 |       operator<<([01;36m[Kios_base& (*__pf) (ios_base&)[m[K)
+[9.870s]       |                  [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[9.870s] [01m[K/usr/include/c++/9/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.870s]   166 |       [01;36m[Koperator[m[K<<(long __n)
+[9.871s]       |       [01;36m[K^~~~~~~~[m[K
+[9.871s] [01m[K/usr/include/c++/9/ostream:166:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Klong int[m[K’
+[9.871s]   166 |       operator<<([01;36m[Klong __n[m[K)
+[9.871s]       |                  [01;36m[K~~~~~^~~[m[K
+[9.871s] [01m[K/usr/include/c++/9/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.871s]   170 |       [01;36m[Koperator[m[K<<(unsigned long __n)
+[9.871s]       |       [01;36m[K^~~~~~~~[m[K
+[9.872s] [01m[K/usr/include/c++/9/ostream:170:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[9.872s]   170 |       operator<<([01;36m[Kunsigned long __n[m[K)
+[9.872s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[9.878s] [01m[K/usr/include/c++/9/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.885s]   174 |       [01;36m[Koperator[m[K<<(bool __n)
+[9.895s]       |       [01;36m[K^~~~~~~~[m[K
+[9.895s] [01m[K/usr/include/c++/9/ostream:174:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kbool[m[K’
+[9.895s]   174 |       operator<<([01;36m[Kbool __n[m[K)
+[9.895s]       |                  [01;36m[K~~~~~^~~[m[K
+[9.895s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[9.895s]                  from [01m[K/usr/include/c++/9/istream:39[m[K,
+[9.895s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.896s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.896s] [01m[K/usr/include/c++/9/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[9.896s]    91 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[9.896s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.896s] [01m[K/usr/include/c++/9/bits/ostream.tcc:92:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kshort int[m[K’
+[9.896s]    92 |     operator<<([01;36m[Kshort __n[m[K)
+[9.896s]       |                [01;36m[K~~~~~~^~~[m[K
+[9.896s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[9.897s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.897s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.897s] [01m[K/usr/include/c++/9/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.897s]   181 |       [01;36m[Koperator[m[K<<(unsigned short __n)
+[9.897s]       |       [01;36m[K^~~~~~~~[m[K
+[9.907s] [01m[K/usr/include/c++/9/ostream:181:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kshort unsigned int[m[K’
+[9.911s]   181 |       operator<<([01;36m[Kunsigned short __n[m[K)
+[9.911s]       |                  [01;36m[K~~~~~~~~~~~~~~~^~~[m[K
+[9.911s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[9.911s]                  from [01m[K/usr/include/c++/9/istream:39[m[K,
+[9.911s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.911s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.911s] [01m[K/usr/include/c++/9/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[9.911s]   105 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[9.912s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.912s] [01m[K/usr/include/c++/9/bits/ostream.tcc:106:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kint[m[K’
+[9.914s]   106 |     operator<<([01;36m[Kint __n[m[K)
+[9.917s]       |                [01;36m[K~~~~^~~[m[K
+[9.917s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[9.917s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.917s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.920s] [01m[K/usr/include/c++/9/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.921s]   192 |       [01;36m[Koperator[m[K<<(unsigned int __n)
+[9.921s]       |       [01;36m[K^~~~~~~~[m[K
+[9.922s] [01m[K/usr/include/c++/9/ostream:192:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kunsigned int[m[K’
+[9.922s]   192 |       operator<<([01;36m[Kunsigned int __n[m[K)
+[9.922s]       |                  [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[9.922s] [01m[K/usr/include/c++/9/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.922s]   201 |       [01;36m[Koperator[m[K<<(long long __n)
+[9.922s]       |       [01;36m[K^~~~~~~~[m[K
+[9.922s] [01m[K/usr/include/c++/9/ostream:201:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Klong long int[m[K’
+[9.922s]   201 |       operator<<([01;36m[Klong long __n[m[K)
+[9.923s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[9.923s] [01m[K/usr/include/c++/9/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.923s]   205 |       [01;36m[Koperator[m[K<<(unsigned long long __n)
+[9.923s]       |       [01;36m[K^~~~~~~~[m[K
+[9.923s] [01m[K/usr/include/c++/9/ostream:205:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[9.923s]   205 |       operator<<([01;36m[Kunsigned long long __n[m[K)
+[9.924s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.924s] [01m[K/usr/include/c++/9/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.924s]   220 |       [01;36m[Koperator[m[K<<(double __f)
+[9.924s]       |       [01;36m[K^~~~~~~~[m[K
+[9.924s] [01m[K/usr/include/c++/9/ostream:220:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kdouble[m[K’
+[9.927s]   220 |       operator<<([01;36m[Kdouble __f[m[K)
+[9.927s]       |                  [01;36m[K~~~~~~~^~~[m[K
+[9.928s] [01m[K/usr/include/c++/9/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.928s]   224 |       [01;36m[Koperator[m[K<<(float __f)
+[9.928s]       |       [01;36m[K^~~~~~~~[m[K
+[9.928s] [01m[K/usr/include/c++/9/ostream:224:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kfloat[m[K’
+[9.928s]   224 |       operator<<([01;36m[Kfloat __f[m[K)
+[9.928s]       |                  [01;36m[K~~~~~~^~~[m[K
+[9.930s] [01m[K/usr/include/c++/9/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.931s]   232 |       [01;36m[Koperator[m[K<<(long double __f)
+[9.931s]       |       [01;36m[K^~~~~~~~[m[K
+[9.931s] [01m[K/usr/include/c++/9/ostream:232:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Klong double[m[K’
+[9.931s]   232 |       operator<<([01;36m[Klong double __f[m[K)
+[9.931s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[9.931s] [01m[K/usr/include/c++/9/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[9.931s]   245 |       [01;36m[Koperator[m[K<<(const void* __p)
+[9.932s]       |       [01;36m[K^~~~~~~~[m[K
+[9.932s] [01m[K/usr/include/c++/9/ostream:245:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kconst void*[m[K’
+[9.932s]   245 |       operator<<([01;36m[Kconst void* __p[m[K)
+[9.932s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[9.932s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[9.932s]                  from [01m[K/usr/include/c++/9/istream:39[m[K,
+[9.933s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.933s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.935s] [01m[K/usr/include/c++/9/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[9.943s]   119 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[9.943s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.944s] [01m[K/usr/include/c++/9/bits/ostream.tcc:120:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korder[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’}
+[9.944s]   120 |     operator<<([01;36m[K__streambuf_type* __sbin[m[K)
+[9.944s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[9.944s] In file included from [01m[K/usr/include/c++/9/regex:62[m[K,
+[9.944s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:110[m[K,
+[9.944s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.947s] [01m[K/usr/include/c++/9/bits/regex.h:1553:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch_type, class _Ch_traits, class _Bi_iter> std::basic_ostream<_CharT, _Traits>& std::__cxx11::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::sub_match<_Bi_iter>&)[m[K’
+[9.948s]  1553 |     [01;36m[Koperator[m[K<<(basic_ostream<_Ch_type, _Ch_traits>& __os,
+[9.948s]       |     [01;36m[K^~~~~~~~[m[K
+[9.948s] [01m[K/usr/include/c++/9/bits/regex.h:1553:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.948s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::sub_match<_Bi_iter>[m[K’
+[9.948s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[9.948s]       |                                                                [01;36m[K^~~~~~[m[K
+[9.948s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[9.949s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[9.949s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[9.949s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[9.949s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[9.949s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[9.959s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:1[m[K:
+[9.959s] [01m[K/usr/include/c++/9/bits/basic_string.h:6416:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)[m[K’
+[9.959s]  6416 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[9.959s]       |     [01;36m[K^~~~~~~~[m[K
+[9.960s] [01m[K/usr/include/c++/9/bits/basic_string.h:6416:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.960s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+[9.960s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[9.960s]       |                                                                [01;36m[K^~~~~~[m[K
+[9.960s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[9.960s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:1[m[K:
+[9.960s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[9.961s]    66 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+[9.961s]       |     [01;36m[K^~~~~~~~[m[K
+[9.961s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.961s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[9.961s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[9.962s]       |                                                                [01;36m[K^~~~~~[m[K
+[9.962s] In file included from [01m[K/usr/include/c++/9/bits/ios_base.h:46[m[K,
+[9.962s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[9.963s]                  from [01m[K/usr/include/c++/9/istream:38[m[K,
+[9.964s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.979s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.979s] [01m[K/usr/include/c++/9/system_error:217:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)[m[K’
+[9.979s]   217 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[9.979s]       |     [01;36m[K^~~~~~~~[m[K
+[9.979s] [01m[K/usr/include/c++/9/system_error:217:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.979s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kconst std::error_code&[m[K’
+[9.979s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[9.980s]       |                                                                [01;36m[K^~~~~~[m[K
+[9.980s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[9.980s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.980s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.981s] [01m[K/usr/include/c++/9/ostream:506:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)[m[K’
+[9.982s]   506 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[9.982s]       |     [01;36m[K^~~~~~~~[m[K
+[9.982s] [01m[K/usr/include/c++/9/ostream:506:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.982s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[Korder[m[K’)
+[9.982s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[9.986s]       |                                                                [01;36m[K^~~~~~[m[K
+[9.986s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[9.986s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.986s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.987s] [01m[K/usr/include/c++/9/ostream:511:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)[m[K’
+[9.987s]   511 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[9.987s]       |     [01;36m[K^~~~~~~~[m[K
+[9.987s] [01m[K/usr/include/c++/9/ostream:511:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.994s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kchar[m[K’
+[9.994s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[9.994s]       |                                                                [01;36m[K^~~~~~[m[K
+[9.995s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[9.995s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.995s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.995s] [01m[K/usr/include/c++/9/ostream:517:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+[9.995s]   517 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+[9.995s]       |     [01;36m[K^~~~~~~~[m[K
+[9.995s] [01m[K/usr/include/c++/9/ostream:517:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.995s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kchar[m[K’
+[9.996s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[9.996s]       |                                                                [01;36m[K^~~~~~[m[K
+[9.997s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[9.997s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.997s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.997s] [01m[K/usr/include/c++/9/ostream:523:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+[9.997s]   523 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[9.997s]       |     [01;36m[K^~~~~~~~[m[K
+[9.997s] [01m[K/usr/include/c++/9/ostream:523:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.997s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Ksigned char[m[K’
+[10.001s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.002s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.002s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[10.002s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[10.002s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[10.002s] [01m[K/usr/include/c++/9/ostream:528:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+[10.002s]   528 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[10.003s]       |     [01;36m[K^~~~~~~~[m[K
+[10.003s] [01m[K/usr/include/c++/9/ostream:528:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.003s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kunsigned char[m[K’
+[10.003s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.003s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.003s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[10.003s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[10.003s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[10.004s] [01m[K/usr/include/c++/9/ostream:548:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)[m[K’
+[10.004s]   548 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[10.004s]       |     [01;36m[K^~~~~~~~[m[K
+[10.004s] [01m[K/usr/include/c++/9/ostream:548:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.004s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Korder[m[K’
+[10.004s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.004s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.005s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[10.006s]                  from [01m[K/usr/include/c++/9/istream:39[m[K,
+[10.015s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[10.016s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[10.016s] [01m[K/usr/include/c++/9/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)[m[K’
+[10.016s]   321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[10.016s]       |     [01;36m[K^~~~~~~~[m[K
+[10.016s] [01m[K/usr/include/c++/9/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.023s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kconst char*[m[K’
+[10.023s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.023s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.024s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[10.024s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[10.024s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[10.024s] [01m[K/usr/include/c++/9/ostream:565:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+[10.024s]   565 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[10.024s]       |     [01;36m[K^~~~~~~~[m[K
+[10.024s] [01m[K/usr/include/c++/9/ostream:565:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.024s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kconst char*[m[K’
+[10.024s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.025s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.025s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[10.038s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[10.038s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[10.038s] [01m[K/usr/include/c++/9/ostream:578:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+[10.039s]   578 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[10.039s]       |     [01;36m[K^~~~~~~~[m[K
+[10.039s] [01m[K/usr/include/c++/9/ostream:578:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.039s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kconst signed char*[m[K’
+[10.039s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.039s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.039s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[10.040s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[10.040s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[10.040s] [01m[K/usr/include/c++/9/ostream:583:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+[10.040s]   583 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[10.040s]       |     [01;36m[K^~~~~~~~[m[K
+[10.040s] [01m[K/usr/include/c++/9/ostream:583:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.041s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kconst unsigned char*[m[K’
+[10.041s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.041s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.041s] In file included from [01m[K/usr/include/c++/9/istream:39[m[K,
+[10.041s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[10.041s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[10.041s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)[m[K’
+[10.041s]   691 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+[10.042s]       |     [01;36m[K^~~~~~~~[m[K
+[10.042s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.042s] /usr/include/c++/9/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = order][m[K’:
+[10.043s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K   required from here
+[10.043s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::basic_ostream<char>&>[m[K’
+[10.043s] In file included from [01m[K/usr/include/c++/9/future:39[m[K,
+[10.043s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:18[m[K,
+[10.043s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+[10.050s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[10.050s] [01m[K/usr/include/c++/9/thread:322:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)[m[K’
+[10.050s]   322 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+[10.054s]       |     [01;36m[K^~~~~~~~[m[K
+[10.055s] [01m[K/usr/include/c++/9/thread:322:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.055s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kstd::thread::id[m[K’
+[10.055s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.055s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.055s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.056s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.056s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.056s] [01m[K/usr/include/c++/9/complex:552:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)[m[K’
+[10.056s]   552 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+[10.056s]       |     [01;36m[K^~~~~~~~[m[K
+[10.056s] [01m[K/usr/include/c++/9/complex:552:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.074s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[10.075s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.076s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.076s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:66[m[K,
+[10.076s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.077s] [01m[K/usr/include/c++/9/bitset:1538:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, long unsigned int _Nb> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bitset<_Nb>&)[m[K’
+[10.077s]  1538 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.077s]       |     [01;36m[K^~~~~~~~[m[K
+[10.077s] [01m[K/usr/include/c++/9/bitset:1538:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.077s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::bitset<_Nb>[m[K’
+[10.078s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.078s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.078s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[10.078s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.079s] [01m[K/usr/include/c++/9/iomanip:79:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)[m[K’
+[10.079s]    79 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+[10.079s]       |     [01;36m[K^~~~~~~~[m[K
+[10.079s] [01m[K/usr/include/c++/9/iomanip:79:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.080s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kstd::_Resetiosflags[m[K’
+[10.098s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.098s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.099s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[10.099s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.099s] [01m[K/usr/include/c++/9/iomanip:109:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)[m[K’
+[10.099s]   109 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+[10.101s]       |     [01;36m[K^~~~~~~~[m[K
+[10.102s] [01m[K/usr/include/c++/9/iomanip:109:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.102s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kstd::_Setiosflags[m[K’
+[10.102s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.102s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.102s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[10.102s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.103s] [01m[K/usr/include/c++/9/iomanip:143:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)[m[K’
+[10.103s]   143 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+[10.103s]       |     [01;36m[K^~~~~~~~[m[K
+[10.103s] [01m[K/usr/include/c++/9/iomanip:143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.103s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kstd::_Setbase[m[K’
+[10.103s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.103s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.103s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[10.104s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.104s] [01m[K/usr/include/c++/9/iomanip:178:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)[m[K’
+[10.104s]   178 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+[10.120s]       |     [01;36m[K^~~~~~~~[m[K
+[10.120s] [01m[K/usr/include/c++/9/iomanip:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.120s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kstd::_Setfill<_CharT>[m[K’
+[10.120s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.120s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.129s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[10.129s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.129s] [01m[K/usr/include/c++/9/iomanip:208:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)[m[K’
+[10.129s]   208 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+[10.129s]       |     [01;36m[K^~~~~~~~[m[K
+[10.129s] [01m[K/usr/include/c++/9/iomanip:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.130s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kstd::_Setprecision[m[K’
+[10.130s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.131s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.131s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[10.131s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.131s] [01m[K/usr/include/c++/9/iomanip:238:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)[m[K’
+[10.131s]   238 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+[10.131s]       |     [01;36m[K^~~~~~~~[m[K
+[10.131s] [01m[K/usr/include/c++/9/iomanip:238:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.131s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kstd::_Setw[m[K’
+[10.132s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.132s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.132s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[10.132s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.132s] [01m[K/usr/include/c++/9/iomanip:311:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)[m[K’
+[10.132s]   311 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+[10.140s]       |     [01;36m[K^~~~~~~~[m[K
+[10.140s] [01m[K/usr/include/c++/9/iomanip:311:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.140s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kstd::_Put_money<_MoneyT>[m[K’
+[10.141s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.141s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.141s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[10.141s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.141s] [01m[K/usr/include/c++/9/iomanip:363:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)[m[K’
+[10.141s]   363 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+[10.142s]       |     [01;36m[K^~~~~~~~[m[K
+[10.142s] [01m[K/usr/include/c++/9/iomanip:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.142s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kstd::_Put_time<_CharT>[m[K’
+[10.142s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.142s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.143s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.143s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.143s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.143s] [01m[K/usr/include/c++/9/bits/valarray_after.h:413:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)[m[K’
+[10.143s]   413 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(<<, __shift_left)
+[10.143s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.143s] [01m[K/usr/include/c++/9/bits/valarray_after.h:413:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.143s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[10.144s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.144s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.144s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.144s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.144s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.145s] [01m[K/usr/include/c++/9/bits/valarray_after.h:413:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)[m[K’
+[10.145s]   413 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(<<, __shift_left)
+[10.145s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.145s] [01m[K/usr/include/c++/9/bits/valarray_after.h:413:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.146s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[10.146s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.147s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.147s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.147s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.147s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.147s] [01m[K/usr/include/c++/9/bits/valarray_after.h:413:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[10.147s]   413 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(<<, __shift_left)
+[10.147s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.148s] [01m[K/usr/include/c++/9/bits/valarray_after.h:413:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.148s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[10.148s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.148s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.148s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.148s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.149s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.149s] [01m[K/usr/include/c++/9/bits/valarray_after.h:413:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)[m[K’
+[10.149s]   413 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(<<, __shift_left)
+[10.149s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.149s] [01m[K/usr/include/c++/9/bits/valarray_after.h:413:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.149s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[10.149s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.149s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.150s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.163s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.163s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.163s] [01m[K/usr/include/c++/9/bits/valarray_after.h:413:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[10.163s]   413 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(<<, __shift_left)
+[10.163s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.164s] [01m[K/usr/include/c++/9/bits/valarray_after.h:413:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.164s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[10.164s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.164s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.164s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.164s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.168s] [01m[K/usr/include/c++/9/valarray:1193:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const std::valarray<_Tp>&, const std::valarray<_Tp>&)[m[K’
+[10.169s]  1193 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(<<, __shift_left)
+[10.169s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.169s] [01m[K/usr/include/c++/9/valarray:1193:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.169s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[10.169s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.169s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.169s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.169s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.170s] [01m[K/usr/include/c++/9/valarray:1193:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)[m[K’
+[10.170s]  1193 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(<<, __shift_left)
+[10.170s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.170s] [01m[K/usr/include/c++/9/valarray:1193:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.170s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[10.170s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.170s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.171s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.171s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.171s] [01m[K/usr/include/c++/9/valarray:1193:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)[m[K’
+[10.171s]  1193 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(<<, __shift_left)
+[10.171s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.171s] [01m[K/usr/include/c++/9/valarray:1193:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.171s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[10.171s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.172s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.172s] In file included from [01m[K/usr/include/c++/9/random:49[m[K,
+[10.172s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.172s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.172s] [01m[K/usr/include/c++/9/bits/random.h:1298:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RandomNumberEngine, long unsigned int __w, class _UIntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&)[m[K’
+[10.179s]  1298 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.179s]       |     [01;36m[K^~~~~~~~[m[K
+[10.180s] [01m[K/usr/include/c++/9/bits/random.h:1298:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.180s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>[m[K’
+[10.180s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.180s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.183s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.184s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.184s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.184s] [01m[K/usr/include/c++/9/bits/random.tcc:877:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_int_distribution<_IntType>&)[m[K’
+[10.184s]   877 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.184s]       |     [01;36m[K^~~~~~~~[m[K
+[10.184s] [01m[K/usr/include/c++/9/bits/random.tcc:877:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.184s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::uniform_int_distribution<_IntType>[m[K’
+[10.197s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.197s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.197s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.198s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.198s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.198s] [01m[K/usr/include/c++/9/bits/random.tcc:936:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_real_distribution<_IntType>&)[m[K’
+[10.198s]   936 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.198s]       |     [01;36m[K^~~~~~~~[m[K
+[10.198s] [01m[K/usr/include/c++/9/bits/random.tcc:936:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.198s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::uniform_real_distribution<_IntType>[m[K’
+[10.198s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.199s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.199s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.199s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.199s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.199s] [01m[K/usr/include/c++/9/bits/random.tcc:2133:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::cauchy_distribution<_RealType>&)[m[K’
+[10.200s]  2133 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.200s]       |     [01;36m[K^~~~~~~~[m[K
+[10.200s] [01m[K/usr/include/c++/9/bits/random.tcc:2133:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.200s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::cauchy_distribution<_RealType>[m[K’
+[10.200s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.204s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.204s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.204s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.204s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.205s] [01m[K/usr/include/c++/9/bits/random.tcc:998:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bernoulli_distribution&)[m[K’
+[10.205s]   998 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.205s]       |     [01;36m[K^~~~~~~~[m[K
+[10.205s] [01m[K/usr/include/c++/9/bits/random.tcc:998:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.205s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Korder_[m[K’ (type ‘[01m[Korder[m[K’) to type ‘[01m[Kconst std::bernoulli_distribution&[m[K’
+[10.205s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.205s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.206s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.211s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.212s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.218s] [01m[K/usr/include/c++/9/bits/random.tcc:1080:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::geometric_distribution<_IntType>&)[m[K’
+[10.219s]  1080 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.219s]       |     [01;36m[K^~~~~~~~[m[K
+[10.219s] [01m[K/usr/include/c++/9/bits/random.tcc:1080:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.219s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::geometric_distribution<_IntType>[m[K’
+[10.219s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.219s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.220s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.220s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.220s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.224s] [01m[K/usr/include/c++/9/bits/random.tcc:1737:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::exponential_distribution<_RealType>&)[m[K’
+[10.224s]  1737 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.224s]       |     [01;36m[K^~~~~~~~[m[K
+[10.224s] [01m[K/usr/include/c++/9/bits/random.tcc:1737:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.224s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::exponential_distribution<_RealType>[m[K’
+[10.225s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.225s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.226s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.226s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.226s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.226s] [01m[K/usr/include/c++/9/bits/random.tcc:2532:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::weibull_distribution<_RealType>&)[m[K’
+[10.226s]  2532 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.226s]       |     [01;36m[K^~~~~~~~[m[K
+[10.226s] [01m[K/usr/include/c++/9/bits/random.tcc:2532:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.227s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::weibull_distribution<_RealType>[m[K’
+[10.227s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.227s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.227s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.227s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.227s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.227s] [01m[K/usr/include/c++/9/bits/random.tcc:2608:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::extreme_value_distribution<_RealType>&)[m[K’
+[10.227s]  2608 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.228s]       |     [01;36m[K^~~~~~~~[m[K
+[10.228s] [01m[K/usr/include/c++/9/bits/random.tcc:2608:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.228s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::extreme_value_distribution<_RealType>[m[K’
+[10.228s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.228s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.228s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.228s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.228s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.229s] [01m[K/usr/include/c++/9/bits/random.tcc:154:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::linear_congruential_engine<_UIntType, __a, __c, __m>&)[m[K’
+[10.229s]   154 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.229s]       |     [01;36m[K^~~~~~~~[m[K
+[10.229s] [01m[K/usr/include/c++/9/bits/random.tcc:154:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.229s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::linear_congruential_engine<_UIntType, __a, __c, __m>[m[K’
+[10.229s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.229s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.229s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.229s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.230s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.230s] [01m[K/usr/include/c++/9/bits/random.tcc:476:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _UIntType1, long unsigned int __w1, long unsigned int __n1, long unsigned int __m1, long unsigned int __r1, _UIntType1 __a1, long unsigned int __u1, _UIntType1 __d1, long unsigned int __s1, _UIntType1 __b1, long unsigned int __t1, _UIntType1 __c1, long unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)[m[K’
+[10.230s]   476 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.230s]       |     [01;36m[K^~~~~~~~[m[K
+[10.230s] [01m[K/usr/include/c++/9/bits/random.tcc:476:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.230s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>[m[K’
+[10.240s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.240s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.240s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.241s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.241s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.248s] [01m[K/usr/include/c++/9/bits/random.tcc:632:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _UIntType, long unsigned int __w, long unsigned int __s, long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)[m[K’
+[10.248s]   632 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.248s]       |     [01;36m[K^~~~~~~~[m[K
+[10.248s] [01m[K/usr/include/c++/9/bits/random.tcc:632:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.248s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::subtract_with_carry_engine<_UIntType, __w, __s, __r>[m[K’
+[10.248s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.249s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.249s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.249s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.250s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.250s] [01m[K/usr/include/c++/9/bits/random.tcc:702:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RandomNumberEngine, long unsigned int __p, long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discard_block_engine<_RandomNumberEngine, __p, __r>&)[m[K’
+[10.251s]   702 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.251s]       |     [01;36m[K^~~~~~~~[m[K
+[10.251s] [01m[K/usr/include/c++/9/bits/random.tcc:702:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.251s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::discard_block_engine<_RandomNumberEngine, __p, __r>[m[K’
+[10.251s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.252s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.252s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.252s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.252s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.252s] [01m[K/usr/include/c++/9/bits/random.tcc:831:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RandomNumberEngine, long unsigned int __k, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::shuffle_order_engine<_RandomNumberEngine, __k>&)[m[K’
+[10.252s]   831 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.253s]       |     [01;36m[K^~~~~~~~[m[K
+[10.253s] [01m[K/usr/include/c++/9/bits/random.tcc:831:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.253s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::shuffle_order_engine<_RandomNumberEngine, __k>[m[K’
+[10.253s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.253s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.253s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.253s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.253s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.254s] [01m[K/usr/include/c++/9/bits/random.tcc:1195:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::negative_binomial_distribution<_IntType>&)[m[K’
+[10.254s]  1195 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.254s]       |     [01;36m[K^~~~~~~~[m[K
+[10.267s] [01m[K/usr/include/c++/9/bits/random.tcc:1195:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.268s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::negative_binomial_distribution<_IntType>[m[K’
+[10.268s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.268s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.268s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.268s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.268s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.269s] [01m[K/usr/include/c++/9/bits/random.tcc:1406:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::poisson_distribution<_IntType>&)[m[K’
+[10.269s]  1406 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.269s]       |     [01;36m[K^~~~~~~~[m[K
+[10.269s] [01m[K/usr/include/c++/9/bits/random.tcc:1406:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.270s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::poisson_distribution<_IntType>[m[K’
+[10.270s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.270s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.270s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.270s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.270s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.270s] [01m[K/usr/include/c++/9/bits/random.tcc:1673:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::binomial_distribution<_IntType>&)[m[K’
+[10.270s]  1673 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.271s]       |     [01;36m[K^~~~~~~~[m[K
+[10.271s] [01m[K/usr/include/c++/9/bits/random.tcc:1673:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.271s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::binomial_distribution<_IntType>[m[K’
+[10.271s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.271s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.288s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.288s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.288s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.288s] [01m[K/usr/include/c++/9/bits/random.tcc:1904:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::normal_distribution<_RealType>&)[m[K’
+[10.288s]  1904 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.289s]       |     [01;36m[K^~~~~~~~[m[K
+[10.289s] [01m[K/usr/include/c++/9/bits/random.tcc:1904:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.289s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::normal_distribution<_RealType>[m[K’
+[10.290s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.290s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.290s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.290s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.290s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.290s] [01m[K/usr/include/c++/9/bits/random.tcc:1973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::lognormal_distribution<_RealType>&)[m[K’
+[10.291s]  1973 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.291s]       |     [01;36m[K^~~~~~~~[m[K
+[10.291s] [01m[K/usr/include/c++/9/bits/random.tcc:1973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.291s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::lognormal_distribution<_RealType>[m[K’
+[10.291s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.291s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.292s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.292s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.314s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.315s] [01m[K/usr/include/c++/9/bits/random.tcc:2046:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::chi_squared_distribution<_RealType>&)[m[K’
+[10.315s]  2046 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.315s]       |     [01;36m[K^~~~~~~~[m[K
+[10.316s] [01m[K/usr/include/c++/9/bits/random.tcc:2046:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.316s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::chi_squared_distribution<_RealType>[m[K’
+[10.316s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.316s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.324s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.335s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.335s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.335s] [01m[K/usr/include/c++/9/bits/random.tcc:2210:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::fisher_f_distribution<_RealType>&)[m[K’
+[10.335s]  2210 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.335s]       |     [01;36m[K^~~~~~~~[m[K
+[10.335s] [01m[K/usr/include/c++/9/bits/random.tcc:2210:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.335s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::fisher_f_distribution<_RealType>[m[K’
+[10.336s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.336s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.336s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.337s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.337s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.338s] [01m[K/usr/include/c++/9/bits/random.tcc:2285:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::student_t_distribution<_RealType>&)[m[K’
+[10.338s]  2285 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.338s]       |     [01;36m[K^~~~~~~~[m[K
+[10.338s] [01m[K/usr/include/c++/9/bits/random.tcc:2285:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.338s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::student_t_distribution<_RealType>[m[K’
+[10.338s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.338s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.339s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.339s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.340s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.354s] [01m[K/usr/include/c++/9/bits/random.tcc:2454:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::gamma_distribution<_RealType>&)[m[K’
+[10.354s]  2454 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.355s]       |     [01;36m[K^~~~~~~~[m[K
+[10.355s] [01m[K/usr/include/c++/9/bits/random.tcc:2454:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.355s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::gamma_distribution<_RealType>[m[K’
+[10.355s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.356s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.366s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.366s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.366s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.366s] [01m[K/usr/include/c++/9/bits/random.tcc:2744:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discrete_distribution<_IntType>&)[m[K’
+[10.367s]  2744 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.387s]       |     [01;36m[K^~~~~~~~[m[K
+[10.387s] [01m[K/usr/include/c++/9/bits/random.tcc:2744:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.387s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::discrete_distribution<_IntType>[m[K’
+[10.387s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.387s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.387s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.388s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.388s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.388s] [01m[K/usr/include/c++/9/bits/random.tcc:2967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_constant_distribution<_RealType>&)[m[K’
+[10.388s]  2967 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.389s]       |     [01;36m[K^~~~~~~~[m[K
+[10.389s] [01m[K/usr/include/c++/9/bits/random.tcc:2967:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.389s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::piecewise_constant_distribution<_RealType>[m[K’
+[10.389s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.389s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.389s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.389s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.390s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.390s] [01m[K/usr/include/c++/9/bits/random.tcc:3174:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_linear_distribution<_RealType>&)[m[K’
+[10.390s]  3174 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os,
+[10.390s]       |     [01;36m[K^~~~~~~~[m[K
+[10.390s] [01m[K/usr/include/c++/9/bits/random.tcc:3174:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.390s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Korder[m[K’ is not derived from ‘[01m[Kconst std::piecewise_linear_distribution<_RealType>[m[K’
+[10.390s]    77 |         std::cerr <<"Working on order "<< order_.order << "("<<[01;36m[Korder_[m[K<<")"<<std::endl;
+[10.391s]       |                                                                [01;36m[K^~~~~~[m[K
+[10.391s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:78:21:[m[K [01;31m[Kerror: [m[K‘[01m[KV[m[K’ was not declared in this scope
+[10.391s]    78 |         std::cerr <<[01;31m[KV[m[K-1<<".  Starting with given destinatation x: "<<order_.products.at(0).cx<", y: "<<order_.products.at(0).cy<<std::endl;
+[10.391s]       |                     [01;31m[K^[m[K
+[10.392s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:78:102:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [6][m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[10.392s]    78 |         std::cerr <<V-1<<".  Starting with given destinatation x: "<<order_.products.at(0).cx<[32m[K", y: "[m[K[01;31m[K<<[m[K[34m[Korder_.products.at(0).cy[m[K<<std::endl;
+[10.401s]       |                                                                                               [32m[K~~~~~~~[m[K[01;31m[K^~[m[K[34m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.401s]       |                                                                                               [32m[K|[m[K                              [34m[K|[m[K
+[10.402s]       |                                                                                               [32m[Kconst char [6][m[K                 [34m[Kdouble[m[K
+[10.402s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:81:35:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[int][m[K’ for array subscript
+[10.403s]    81 |                 if (distances[j][i[01;31m[K][m[K==dist[i]){
+[10.404s]       |                                   [01;31m[K^[m[K
+[10.410s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:82:176:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [6][m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[10.411s]    82 | roducts.at(j).part << " for product "<<order_.products.at(j).product<<" at x: "<<order_.products.at(j).cx<[32m[K", y: "[m[K[01;31m[K<<[m[K[34m[Korder_.products.at(j).cy[m[K<<std::endl;
+[10.412s]       |                                                                                                           [32m[K~~~~~~~[m[K[01;31m[K^~[m[K[34m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.429s]       |                                                                                                           [32m[K|[m[K                              [34m[K|[m[K
+[10.435s]       |                                                                                                           [32m[Kconst char [6][m[K                 [34m[Kdouble[m[K
+[10.435s] 
+[10.436s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:88:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[10.436s]    88 |     [01;35m[K}[m[K
+[10.436s]       |     [01;35m[K^[m[K
+[10.438s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:75:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.438s]    75 |     int printSolution(int dist[], [01;35m[Kint n[m[K, struct order order_, double *distances)
+[10.438s]       |                                   [01;35m[K~~~~^[m[K
+[10.438s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::dijkstra(int*, int, int, order)[m[K’:
+[10.438s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:94:13:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdist[m[K’ [[01;35m[K-Wvla[m[K]
+[10.438s]    94 |         int [01;35m[Kdist[m[K[V]; // The output array.  dist[i] will hold the shortest
+[10.438s]       |             [01;35m[K^~~~[m[K
+[10.439s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:97:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KsptSet[m[K’ [[01;35m[K-Wvla[m[K]
+[10.439s]    97 |         bool [01;35m[KsptSet[m[K[V]; // sptSet[i] will be true if vertex i is included in shortest
+[10.439s]       |              [01;35m[K^~~~~~[m[K
+[10.439s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:122:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[10.439s]   122 |                 if (!sptSet[v] && graph[u][v[01;31m[K][m[K && dist[u] != INT_MAX
+[10.439s]       |                                             [01;31m[K^[m[K
+[10.439s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:44:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[10.439s]   123 |                     && dist[u] + graph[u][v[01;31m[K][m[K < dist[v])
+[10.440s]       |                                            [01;31m[K^[m[K
+[10.448s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:124:51:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[10.449s]   124 |                     dist[v] = dist[u] + graph[u][v[01;31m[K][m[K;
+[10.449s]       |                                                   [01;31m[K^[m[K
+[10.449s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:128:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOrderOptimizer::printSolution(int [V], int&, order&)[m[K’
+[10.469s]   128 |         printSolution(dist, V, order_[01;31m[K)[m[K;
+[10.470s]       |                                      [01;31m[K^[m[K
+[10.471s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:75:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint OrderOptimizer::printSolution(int*, int, order, double*)[m[K’
+[10.472s]    75 |     int [01;36m[KprintSolution[m[K(int dist[], int n, struct order order_, double *distances)
+[10.477s]       |         [01;36m[K^~~~~~~~~~~~~[m[K
+[10.477s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:75:9:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[10.478s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::fill_product_part(int, std::string, std::string, double, double, std::vector<product_part>&)[m[K’:
+[10.478s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:133:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kpr[m[K’ was not declared in this scope; did you mean ‘[01m[Kpart[m[K’?
+[10.478s]   133 |         product_part_.id = [01;31m[Kpr[m[K.id;
+[10.479s]       |                            [01;31m[K^~[m[K
+[10.479s]       |                            [32m[Kpart[m[K
+[10.479s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:135:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+[10.479s]   135 |         product_part_.part= [01;31m[Kp[m[K.part;
+[10.479s]       |                             [01;31m[K^[m[K
+[10.480s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.480s]   131 |     void fill_product_part([01;35m[Kint id[m[K, std::string product, std::string part, double cx, double cy, vector < struct product_part> &products_){
+[10.496s]       |                            [01;35m[K~~~~^~[m[K
+[10.496s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kproduct[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.500s]   131 |     void fill_product_part(int id, [01;35m[Kstd::string product[m[K, std::string part, double cx, double cy, vector < struct product_part> &products_){
+[10.500s]       |                                    [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[10.500s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpart[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.501s]   131 |     void fill_product_part(int id, std::string product, [01;35m[Kstd::string part[m[K, double cx, double cy, vector < struct product_part> &products_){
+[10.501s]       |                                                         [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[10.501s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.501s]   131 |     void fill_product_part(int id, std::string product, std::string part, [01;35m[Kdouble cx[m[K, double cy, vector < struct product_part> &products_){
+[10.502s]       |                                                                           [01;35m[K~~~~~~~^~[m[K
+[10.502s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.502s]   131 |     void fill_product_part(int id, std::string product, std::string part, double cx, [01;35m[Kdouble cy[m[K, vector < struct product_part> &products_){
+[10.502s]       |                                                                                      [01;35m[K~~~~~~~^~[m[K
+[10.502s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::read_orders(std::string, int, std::vector<order>&)[m[K’:
+[10.503s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:160:76:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kdouble[m[K’
+[10.503s]   160 |                 fill_product_part("Order Start", "Whole package", "Start", [01;31m[Kx_position[m[K, y_position, products_);
+[10.503s]       |                                                                            [01;31m[K^~~~~~~~~~[m[K
+[10.503s]       |                                                                            [01;31m[K|[m[K
+[10.512s]       |                                                                            [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[10.513s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:82:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid OrderOptimizer::fill_product_part(int, std::string, std::string, double, double, std::vector<product_part>&)[m[K’
+[10.513s]   131 |     void fill_product_part(int id, std::string product, std::string part, [01;36m[Kdouble cx[m[K, double cy, vector < struct product_part> &products_){
+[10.514s]       |                                                                           [01;36m[K~~~~~~~^~[m[K
+[10.514s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:172:43:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.519s]   172 |                         fill_product_part([01;31m[K"Order Destination"[m[K, "Whole package", "Goal", order_.cx, order_.cy, products_);
+[10.520s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.525s]       |                                           [01;31m[K|[m[K
+[10.526s]       |                                           [01;31m[Kconst char*[m[K
+[10.526s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid OrderOptimizer::fill_product_part(int, std::string, std::string, double, double, std::vector<product_part>&)[m[K’
+[10.527s]   131 |     void fill_product_part([01;36m[Kint id[m[K, std::string product, std::string part, double cx, double cy, vector < struct product_part> &products_){
+[10.527s]       |                            [01;36m[K~~~~^~[m[K
+[10.527s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::create_distance_matrix(double&, order)[m[K’:
+[10.528s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpow(double&)[m[K’
+[10.528s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;31m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.539s]       |                                                                                                            [01;31m[K^[m[K
+[10.540s] In file included from [01m[K/usr/include/features.h:461[m[K,
+[10.540s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:39[m[K,
+[10.540s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:524[m[K,
+[10.541s]                  from [01m[K/usr/include/c++/9/bits/stl_algobase.h:59[m[K,
+[10.541s]                  from [01m[K/usr/include/c++/9/memory:62[m[K,
+[10.541s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:1[m[K:
+[10.541s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble pow(double, double)[m[K’
+[10.541s]   140 | [01;36m[K__MATHCALL_VEC[m[K (pow,, (_Mdouble_ __x, _Mdouble_ __y));
+[10.541s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.541s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.542s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.542s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.542s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.543s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Constant, std::_ValArray, _Tp, _Tp>, _Tp> std::pow(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)[m[K’
+[10.543s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.543s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.543s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.543s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.543s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.543s]       |                                                                                                            [01;36m[K^[m[K
+[10.543s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.544s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.544s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.544s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_Constant, _Tp, _Tp>, _Tp> std::pow(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)[m[K’
+[10.544s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.544s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.544s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.544s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.561s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.561s]       |                                                                                                            [01;36m[K^[m[K
+[10.561s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.562s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.562s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.562s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_ValArray, _Tp, _Tp>, _Tp> std::pow(const std::valarray<_Tp>&, const std::valarray<_Tp>&)[m[K’
+[10.562s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.562s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.562s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.563s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.563s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.563s]       |                                                                                                            [01;36m[K^[m[K
+[10.563s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.563s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.563s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.564s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename _Dom::value_type> std::pow(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[10.564s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.564s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.592s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.592s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.592s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.593s]       |                                                                                                            [01;36m[K^[m[K
+[10.593s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.593s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.593s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.593s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename _Dom::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)[m[K’
+[10.593s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.593s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.593s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.594s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.594s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.594s]       |                                                                                                            [01;36m[K^[m[K
+[10.594s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.594s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.594s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.595s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename _Dom::value_type> std::pow(const std::valarray<typename _Dom::valarray>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[10.595s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.595s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.595s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.595s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.595s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.595s]       |                                                                                                            [01;36m[K^[m[K
+[10.595s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.595s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.596s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.596s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename _Dom::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)[m[K’
+[10.596s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.596s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.596s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.596s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.596s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.615s]       |                                                                                                            [01;36m[K^[m[K
+[10.615s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.616s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.616s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.616s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename _Dom1::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)[m[K’
+[10.622s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.622s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.623s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.623s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.623s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.623s]       |                                                                                                            [01;36m[K^[m[K
+[10.623s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.623s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.624s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.624s] [01m[K/usr/include/c++/9/complex:1893:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const std::complex<_Tp>&, const std::complex<_Up>&)[m[K’
+[10.624s]  1893 |     [01;36m[Kpow[m[K(const std::complex<_Tp>& __x, const std::complex<_Up>& __y)
+[10.624s]       |     [01;36m[K^~~[m[K
+[10.624s] [01m[K/usr/include/c++/9/complex:1893:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.624s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.624s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.624s]       |                                                                                                            [01;36m[K^[m[K
+[10.624s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.625s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.625s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.625s] [01m[K/usr/include/c++/9/complex:1885:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const _Tp&, const std::complex<_Up>&)[m[K’
+[10.652s]  1885 |     [01;36m[Kpow[m[K(const _Tp& __x, const std::complex<_Up>& __y)
+[10.653s]       |     [01;36m[K^~~[m[K
+[10.653s] [01m[K/usr/include/c++/9/complex:1885:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.653s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.653s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.653s]       |                                                                                                            [01;36m[K^[m[K
+[10.653s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.653s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.653s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.654s] [01m[K/usr/include/c++/9/complex:1877:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const std::complex<_Tp>&, const _Up&)[m[K’
+[10.654s]  1877 |     [01;36m[Kpow[m[K(const std::complex<_Tp>& __x, const _Up& __y)
+[10.654s]       |     [01;36m[K^~~[m[K
+[10.654s] [01m[K/usr/include/c++/9/complex:1877:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.654s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.654s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.654s]       |                                                                                                            [01;36m[K^[m[K
+[10.654s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.655s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.655s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.655s] [01m[K/usr/include/c++/9/complex:1070:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const _Tp&, const std::complex<_Tp>&)[m[K’
+[10.655s]  1070 |     [01;36m[Kpow[m[K(const _Tp& __x, const complex<_Tp>& __y)
+[10.672s]       |     [01;36m[K^~~[m[K
+[10.673s] [01m[K/usr/include/c++/9/complex:1070:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.673s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.673s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.674s]       |                                                                                                            [01;36m[K^[m[K
+[10.674s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.674s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.674s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.674s] [01m[K/usr/include/c++/9/complex:1059:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+[10.674s]  1059 |     [01;36m[Kpow[m[K(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[10.674s]       |     [01;36m[K^~~[m[K
+[10.674s] [01m[K/usr/include/c++/9/complex:1059:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.675s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.675s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.675s]       |                                                                                                            [01;36m[K^[m[K
+[10.675s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.675s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.690s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.690s] [01m[K/usr/include/c++/9/complex:1025:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, const _Tp&)[m[K’
+[10.690s]  1025 |     [01;36m[Kpow[m[K(const complex<_Tp>& __x, const _Tp& __y)
+[10.691s]       |     [01;36m[K^~~[m[K
+[10.691s] [01m[K/usr/include/c++/9/complex:1025:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.691s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.691s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.691s]       |                                                                                                            [01;36m[K^[m[K
+[10.691s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.691s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.692s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.692s] [01m[K/usr/include/c++/9/complex:1016:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, int)[m[K’
+[10.692s]  1016 |     [01;36m[Kpow[m[K(const complex<_Tp>& __z, int __n)
+[10.703s]       |     [01;36m[K^~~[m[K
+[10.703s] [01m[K/usr/include/c++/9/complex:1016:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.704s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.704s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.704s]       |                                                                                                            [01;36m[K^[m[K
+[10.704s] In file included from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[10.709s]                  from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[10.709s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[10.709s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/subscription.hpp:50[m[K,
+[10.709s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:25[m[K,
+[10.709s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[10.710s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.710s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+[10.710s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[10.710s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.710s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[10.710s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+[10.711s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[10.711s] [01m[K/usr/include/c++/9/cmath:415:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up)[m[K’
+[10.711s]   415 |     [01;36m[Kpow[m[K(_Tp __x, _Up __y)
+[10.711s]       |     [01;36m[K^~~[m[K
+[10.712s] [01m[K/usr/include/c++/9/cmath:415:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.727s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.727s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.728s]       |                                                                                                            [01;36m[K^[m[K
+[10.728s] In file included from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[10.728s]                  from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[10.728s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[10.728s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/subscription.hpp:50[m[K,
+[10.728s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:25[m[K,
+[10.728s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[10.729s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.729s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+[10.730s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[10.731s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.731s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[10.732s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+[10.732s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[10.732s] [01m[K/usr/include/c++/9/cmath:392:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr long double std::pow(long double, long double)[m[K’
+[10.756s]   392 |   [01;36m[Kpow[m[K(long double __x, long double __y)
+[10.757s]       |   [01;36m[K^~~[m[K
+[10.757s] [01m[K/usr/include/c++/9/cmath:392:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.757s] [01m[K/usr/include/c++/9/cmath:388:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr float std::pow(float, float)[m[K’
+[10.757s]   388 |   [01;36m[Kpow[m[K(float __x, float __y)
+[10.758s]       |   [01;36m[K^~~[m[K
+[10.758s] [01m[K/usr/include/c++/9/cmath:388:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.758s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpow(double&)[m[K’
+[10.758s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;31m[K)[m[K), 2));
+[10.758s]       |                                                                                                                            [01;31m[K^[m[K
+[10.758s] 
+[10.758s] In file included from [01m[K/usr/include/features.h:461[m[K,
+[10.759s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:39[m[K,
+[10.759s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:524[m[K,
+[10.759s]                  from [01m[K/usr/include/c++/9/bits/stl_algobase.h:59[m[K,
+[10.759s]                  from [01m[K/usr/include/c++/9/memory:62[m[K,
+[10.759s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:1[m[K:
+[10.759s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble pow(double, double)[m[K’
+[10.760s]   140 | [01;36m[K__MATHCALL_VEC[m[K (pow,, (_Mdouble_ __x, _Mdouble_ __y));
+[10.760s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.776s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.776s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.776s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.777s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.777s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Constant, std::_ValArray, _Tp, _Tp>, _Tp> std::pow(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)[m[K’
+[10.777s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.777s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.778s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.778s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.778s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.778s]       |                                                                                                                            [01;36m[K^[m[K
+[10.778s] 
+[10.778s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.778s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.778s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.779s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_Constant, _Tp, _Tp>, _Tp> std::pow(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)[m[K’
+[10.779s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.779s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.779s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.779s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.779s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.780s]       |                                                                                                                            [01;36m[K^[m[K
+[10.807s] 
+[10.807s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.807s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.808s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.808s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_ValArray, _Tp, _Tp>, _Tp> std::pow(const std::valarray<_Tp>&, const std::valarray<_Tp>&)[m[K’
+[10.809s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.810s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.810s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.810s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.810s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.810s]       |                                                                                                                            [01;36m[K^[m[K
+[10.810s] 
+[10.810s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.810s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.811s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.811s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename _Dom::value_type> std::pow(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[10.811s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.811s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.811s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.811s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.811s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.812s]       |                                                                                                                            [01;36m[K^[m[K
+[10.812s] 
+[10.812s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.812s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.812s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.833s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename _Dom::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)[m[K’
+[10.833s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.833s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.834s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.834s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.834s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.834s]       |                                                                                                                            [01;36m[K^[m[K
+[10.834s] 
+[10.834s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.835s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.835s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.835s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename _Dom::value_type> std::pow(const std::valarray<typename _Dom::valarray>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[10.835s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.835s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.835s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.836s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.836s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.836s]       |                                                                                                                            [01;36m[K^[m[K
+[10.836s] 
+[10.850s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.851s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.851s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.851s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename _Dom::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)[m[K’
+[10.851s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.851s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.851s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.852s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.852s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.852s]       |                                                                                                                            [01;36m[K^[m[K
+[10.853s] 
+[10.853s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.853s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.854s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.854s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename _Dom1::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)[m[K’
+[10.854s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.854s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.854s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.854s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.854s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.854s]       |                                                                                                                            [01;36m[K^[m[K
+[10.855s] 
+[10.855s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.855s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.855s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.855s] [01m[K/usr/include/c++/9/complex:1893:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const std::complex<_Tp>&, const std::complex<_Up>&)[m[K’
+[10.856s]  1893 |     [01;36m[Kpow[m[K(const std::complex<_Tp>& __x, const std::complex<_Up>& __y)
+[10.856s]       |     [01;36m[K^~~[m[K
+[10.856s] [01m[K/usr/include/c++/9/complex:1893:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.856s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.856s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.864s]       |                                                                                                                            [01;36m[K^[m[K
+[10.865s] 
+[10.865s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.865s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.865s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.865s] [01m[K/usr/include/c++/9/complex:1885:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const _Tp&, const std::complex<_Up>&)[m[K’
+[10.865s]  1885 |     [01;36m[Kpow[m[K(const _Tp& __x, const std::complex<_Up>& __y)
+[10.866s]       |     [01;36m[K^~~[m[K
+[10.866s] [01m[K/usr/include/c++/9/complex:1885:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.866s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.866s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.866s]       |                                                                                                                            [01;36m[K^[m[K
+[10.866s] 
+[10.866s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.872s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.873s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.873s] [01m[K/usr/include/c++/9/complex:1877:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const std::complex<_Tp>&, const _Up&)[m[K’
+[10.873s]  1877 |     [01;36m[Kpow[m[K(const std::complex<_Tp>& __x, const _Up& __y)
+[10.880s]       |     [01;36m[K^~~[m[K
+[10.880s] [01m[K/usr/include/c++/9/complex:1877:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.880s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.880s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.880s]       |                                                                                                                            [01;36m[K^[m[K
+[10.880s] 
+[10.881s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.881s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.881s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.881s] [01m[K/usr/include/c++/9/complex:1070:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const _Tp&, const std::complex<_Tp>&)[m[K’
+[10.881s]  1070 |     [01;36m[Kpow[m[K(const _Tp& __x, const complex<_Tp>& __y)
+[10.881s]       |     [01;36m[K^~~[m[K
+[10.881s] [01m[K/usr/include/c++/9/complex:1070:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.882s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.882s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.882s]       |                                                                                                                            [01;36m[K^[m[K
+[10.882s] 
+[10.882s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.882s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.882s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.883s] [01m[K/usr/include/c++/9/complex:1059:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+[10.883s]  1059 |     [01;36m[Kpow[m[K(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[10.883s]       |     [01;36m[K^~~[m[K
+[10.894s] [01m[K/usr/include/c++/9/complex:1059:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.894s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.894s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.894s]       |                                                                                                                            [01;36m[K^[m[K
+[10.895s] 
+[10.895s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.895s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.895s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.895s] [01m[K/usr/include/c++/9/complex:1025:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, const _Tp&)[m[K’
+[10.895s]  1025 |     [01;36m[Kpow[m[K(const complex<_Tp>& __x, const _Tp& __y)
+[10.896s]       |     [01;36m[K^~~[m[K
+[10.896s] [01m[K/usr/include/c++/9/complex:1025:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.896s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.896s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.905s]       |                                                                                                                            [01;36m[K^[m[K
+[10.905s] 
+[10.905s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.905s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.906s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.906s] [01m[K/usr/include/c++/9/complex:1016:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, int)[m[K’
+[10.906s]  1016 |     [01;36m[Kpow[m[K(const complex<_Tp>& __z, int __n)
+[10.906s]       |     [01;36m[K^~~[m[K
+[10.906s] [01m[K/usr/include/c++/9/complex:1016:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.906s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.906s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.907s]       |                                                                                                                            [01;36m[K^[m[K
+[10.907s] 
+[10.907s] In file included from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[10.907s]                  from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[10.908s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[10.915s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/subscription.hpp:50[m[K,
+[10.915s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:25[m[K,
+[10.915s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[10.915s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.915s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+[10.915s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[10.915s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.916s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[10.916s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+[10.916s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[10.916s] [01m[K/usr/include/c++/9/cmath:415:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up)[m[K’
+[10.916s]   415 |     [01;36m[Kpow[m[K(_Tp __x, _Up __y)
+[10.932s]       |     [01;36m[K^~~[m[K
+[10.933s] [01m[K/usr/include/c++/9/cmath:415:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.933s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.933s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.934s]       |                                                                                                                            [01;36m[K^[m[K
+[10.934s] 
+[10.934s] In file included from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[10.934s]                  from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[10.935s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[10.935s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/subscription.hpp:50[m[K,
+[10.935s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:25[m[K,
+[10.935s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[10.935s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.935s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+[10.935s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[10.936s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.936s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[10.936s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+[10.936s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[10.940s] [01m[K/usr/include/c++/9/cmath:392:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr long double std::pow(long double, long double)[m[K’
+[10.941s]   392 |   [01;36m[Kpow[m[K(long double __x, long double __y)
+[10.941s]       |   [01;36m[K^~~[m[K
+[10.941s] [01m[K/usr/include/c++/9/cmath:392:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.941s] [01m[K/usr/include/c++/9/cmath:388:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr float std::pow(float, float)[m[K’
+[10.941s]   388 |   [01;36m[Kpow[m[K(float __x, float __y)
+[10.941s]       |   [01;36m[K^~~[m[K
+[10.942s] [01m[K/usr/include/c++/9/cmath:388:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.942s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:191:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[unsigned int][m[K’ for array subscript
+[10.942s]   191 |                 distances[i[01;31m[K][m[K[j] = euclidian_distance;
+[10.943s]       |                            [01;31m[K^[m[K
+[10.943s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::next_order_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[10.943s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:221:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdistances[m[K’ [[01;35m[K-Wvla[m[K]
+[10.943s]   221 |         double [01;35m[Kdistances[m[K[matrix_size][matrix_size];
+[10.943s]       |                [01;35m[K^~~~~~~~~[m[K
+[10.943s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:221:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdistances[m[K’ [[01;35m[K-Wvla[m[K]
+[10.943s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:222:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble [matrix_size][matrix_size][m[K’ to ‘[01m[Kdouble&[m[K’
+[10.944s]   222 |         create_distance_matrix([01;31m[Kdistances[m[K, orders.at(0));
+[10.944s]       |                                [01;31m[K^~~~~~~~~[m[K
+[10.944s]       |                                [01;31m[K|[m[K
+[10.944s]       |                                [01;31m[Kdouble [matrix_size][matrix_size][m[K
+[10.944s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:187:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid OrderOptimizer::create_distance_matrix(double&, order)[m[K’
+[10.950s]   187 |    void create_distance_matrix([01;36m[Kdouble &distances[m[K, struct order order_) {
+[10.950s]       |                                [01;36m[K~~~~~~~~^~~~~~~~~[m[K
+[10.950s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:226:18:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble [matrix_size][matrix_size][m[K’ to ‘[01m[Kint*[m[K’
+[10.951s]   226 |         dijkstra([01;31m[Kdistances[m[K, 0, matrix_size, orders.at(0));
+[10.951s]       |                  [01;31m[K^~~~~~~~~[m[K
+[10.951s]       |                  [01;31m[K|[m[K
+[10.951s]       |                  [01;31m[Kdouble [matrix_size][matrix_size][m[K
+[10.951s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:92:24:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid OrderOptimizer::dijkstra(int*, int, int, order)[m[K’
+[10.951s]    92 |     void dijkstra([01;36m[Kint *graph[m[K, int src, int V, struct order order_)
+[10.951s]       |                   [01;36m[K~~~~~^~~~~[m[K
+[16.532s] make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+[16.534s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+[16.535s] make: *** [Makefile:141: all] Error 2
+[16.565s] Invoked command in '/home/knapp/git/order_optimizer/build/order_optimizer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knapp/ros2_foxy/install/ros2bag:/home/knapp/ros2_foxy/install/tracetools_launch:/home/knapp/ros2_foxy/install/topic_monitor:/home/knapp/ros2_foxy/install/examples_tf2_py:/home/knapp/ros2_foxy/install/sros2:/home/knapp/ros2_foxy/install/rqt_topic:/home/knapp/ros2_foxy/install/rqt_top:/home/knapp/ros2_foxy/install/rqt_srv:/home/knapp/ros2_foxy/install/rqt_shell:/home/knapp/ros2_foxy/install/rqt_service_caller:/home/knapp/ros2_foxy/install/rqt_reconfigure:/home/knapp/ros2_foxy/install/rqt_py_console:/home/knapp/ros2_foxy/install/rqt_publisher:/home/knapp/ros2_foxy/install/rqt_plot:/home/knapp/ros2_foxy/install/rqt_action:/home/knapp/ros2_foxy/install/rqt_msg:/home/knapp/ros2_foxy/install/rqt:/home/knapp/ros2_foxy/install/rqt_graph:/home/knapp/ros2_foxy/install/rqt_gui_py:/home/knapp/ros2_foxy/install/rqt_gui:/home/knapp/ros2_foxy/install/ros2trace:/home/knapp/ros2_foxy/install/ros2topic:/home/knapp/ros2_foxy/install/ros2test:/home/knapp/ros2_foxy/install/ros2component:/home/knapp/ros2_foxy/install/ros2param:/home/knapp/ros2_foxy/install/ros2lifecycle:/home/knapp/ros2_foxy/install/ros2service:/home/knapp/ros2_foxy/install/ros2run:/home/knapp/ros2_foxy/install/ros2launch:/home/knapp/ros2_foxy/install/ros2pkg:/home/knapp/ros2_foxy/install/ros2node:/home/knapp/ros2_foxy/install/ros2multicast:/home/knapp/ros2_foxy/install/ros2interface:/home/knapp/ros2_foxy/install/ros2doctor:/home/knapp/ros2_foxy/install/ros2action:/home/knapp/ros2_foxy/install/ros2cli:/home/knapp/ros2_foxy/install/quality_of_service_demo_py:/home/knapp/ros2_foxy/install/launch_testing_ros:/home/knapp/ros2_foxy/install/launch_ros:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_service:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_client:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/knapp/ros2_foxy/install/examples_rclpy_executors:/home/knapp/ros2_foxy/install/demo_nodes_py:/home/knapp/ros2_foxy/install/action_tutorials_py:/home/knapp/ros2_foxy/install/ament_uncrustify:/home/knapp/ros2_foxy/install/tracetools_trace:/home/knapp/ros2_foxy/install/tracetools_read:/home/knapp/ros2_foxy/install/test_launch_ros:/home/knapp/ros2_foxy/install/sensor_msgs_py:/home/knapp/ros2_foxy/install/rpyutils:/home/knapp/ros2_foxy/install/rosidl_runtime_py:/home/knapp/ros2_foxy/install/launch_yaml:/home/knapp/ros2_foxy/install/launch_xml:/home/knapp/ros2_foxy/install/launch_testing:/home/knapp/ros2_foxy/install/launch:/home/knapp/ros2_foxy/install/osrf_pycommon:/home/knapp/ros2_foxy/install/domain_coordinator:/home/knapp/ros2_foxy/install/ament_xmllint:/home/knapp/ros2_foxy/install/ament_pyflakes:/home/knapp/ros2_foxy/install/ament_pycodestyle:/home/knapp/ros2_foxy/install/ament_pep257:/home/knapp/ros2_foxy/install/ament_pclint:/home/knapp/ros2_foxy/install/ament_package:/home/knapp/ros2_foxy/install/ament_mypy:/home/knapp/ros2_foxy/install/ament_lint_cmake:/home/knapp/ros2_foxy/install/ament_flake8:/home/knapp/ros2_foxy/install/ament_copyright:/home/knapp/ros2_foxy/install/ament_lint:/home/knapp/ros2_foxy/install/ament_index_python:/home/knapp/ros2_foxy/install/ament_cpplint:/home/knapp/ros2_foxy/install/ament_cppcheck:/home/knapp/ros2_foxy/install/ament_clang_tidy:/home/knapp/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/knapp/git/order_optimizer/build/order_optimizer -- -j1 -l1

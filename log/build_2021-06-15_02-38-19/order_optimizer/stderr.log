@@ -1,0 +1,58 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::next_order_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:312:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+  312 |             return [01;31m[K1[m[K;
+      |                    [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:317:28:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[Knr_threads[m[K’ is not usable in a constant expression
+  317 |         array<std::thread, [01;31m[Knr_threads[m[K> thread_objects;
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:316:13:[m[K [01;36m[Knote: [m[K‘[01m[Kint nr_threads[m[K’ is not const
+  316 |         int [01;36m[Knr_threads[m[K = order_files.size();
+      |             [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:317:38:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[Knr_threads[m[K’ is not usable in a constant expression
+  317 |         array<std::thread, nr_threads[01;31m[K>[m[K thread_objects;
+      |                                      [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:316:13:[m[K [01;36m[Knote: [m[K‘[01m[Kint nr_threads[m[K’ is not const
+  316 |         int [01;36m[Knr_threads[m[K = order_files.size();
+      |             [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:317:38:[m[K [01;36m[Knote: [m[Kin template argument for type ‘[01m[Klong unsigned int[m[K’
+  317 |         array<std::thread, nr_threads[01;36m[K>[m[K thread_objects;
+      |                                      [01;36m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:319:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+  319 |         for (auto &t: [01;31m[Kthread_objects[m[K) {
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                       [32m[Kstd::begin[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:10[m[K:
+[01m[K/usr/include/c++/9/valarray:1224:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+ 1224 |     [01;36m[Kbegin[m[K(const valarray<_Tp>& __va)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:319:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+  319 |         for (auto &t: [01;31m[Kthread_objects[m[K) {
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                       [32m[Kstd::end[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:10[m[K:
+[01m[K/usr/include/c++/9/valarray:1244:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+ 1244 |     [01;36m[Kend[m[K(const valarray<_Tp>& __va)
+      |     [01;36m[K^~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:324:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+  324 |         for (auto &t: [01;31m[Kthread_objects[m[K) {
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                       [32m[Kstd::begin[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:10[m[K:
+[01m[K/usr/include/c++/9/valarray:1224:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+ 1224 |     [01;36m[Kbegin[m[K(const valarray<_Tp>& __va)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:324:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+  324 |         for (auto &t: [01;31m[Kthread_objects[m[K) {
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                       [32m[Kstd::end[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:10[m[K:
+[01m[K/usr/include/c++/9/valarray:1244:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+ 1244 |     [01;36m[Kend[m[K(const valarray<_Tp>& __va)
+      |     [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

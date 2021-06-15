@@ -1,0 +1,11 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In member function ‘[01m[Kvoid SendOrder::current_position_callback()[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:37:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+   37 |     auto message_1 = geometry_msgs::msg::PoseStamped[01;31m[K;[m[K
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:88:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstos[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   88 |                 de = std::[01;31m[Kstos[m[K(argv[i+1]);
+      |                           [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/SendOrder.dir/build.make:63: CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/SendOrder.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,12 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::next_order_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:338:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble***[m[K’ to ‘[01m[Kdouble**[m[K’
+  338 |         create_distance_matrix([01;31m[K&distances[m[K, current_order);
+      |                                [01;31m[K^~~~~~~~~~[m[K
+      |                                [01;31m[K|[m[K
+      |                                [01;31m[Kdouble***[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:268:42:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid OrderOptimizer::create_distance_matrix(double**, order)[m[K’
+  268 |     void create_distance_matrix([01;36m[Kdouble **distances[m[K, struct order order_) {
+      |                                 [01;36m[K~~~~~~~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

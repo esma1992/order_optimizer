@@ -1,0 +1,6 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:19:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kproducts[m[K’ [[01;35m[K-Wpedantic[m[K]
+   19 |     int [01;35m[Kproducts[m[K[];
+      |         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:31:10:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kparts[m[K’ [[01;35m[K-Wpedantic[m[K]
+   31 |     part [01;35m[Kparts[m[K[];
+      |          [01;35m[K^~~~~[m[K

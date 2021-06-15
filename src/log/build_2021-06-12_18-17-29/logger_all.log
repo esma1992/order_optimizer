@@ -1,0 +1,129 @@
+[1.111s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'order_optimizer']
+[1.111s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f05c1dfeaf0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['order_optimizer'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=1, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f05c1dfeaf0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f05c1d8c0a0>)
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.141s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/knapp/git/order_optimizer'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/order_optimizer) by extensions ['ignore', 'ignore_ament_install']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/order_optimizer) by extension 'ignore'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/order_optimizer) by extension 'ignore_ament_install'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/order_optimizer) by extensions ['colcon_pkg']
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/order_optimizer) by extension 'colcon_pkg'
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/order_optimizer) by extensions ['colcon_meta']
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/order_optimizer) by extension 'colcon_meta'
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/order_optimizer) by extensions ['ros']
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/order_optimizer) by extension 'ros'
+[1.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/order_optimizer' with type 'ros.ament_cmake' and name 'order_optimizer'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extension 'ignore_ament_install'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extensions ['colcon_pkg']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extension 'colcon_pkg'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extensions ['colcon_meta']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extension 'colcon_meta'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extensions ['ros']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extension 'ros'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extensions ['cmake', 'python']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extension 'cmake'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml-cpp) by extension 'python'
+[1.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yaml-cpp' with type 'cmake' and name 'YAML_CPP'
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.278s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'YAML_CPP' in 'src/yaml-cpp'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_args' from command line to 'None'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_target' from command line to 'None'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_clean_first' from command line to 'False'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_force_configure' from command line to 'False'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'ament_cmake_args' from command line to 'None'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.285s] DEBUG:colcon.colcon_core.verb:Building package 'order_optimizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/knapp/git/order_optimizer/build/order_optimizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/knapp/git/order_optimizer/install/order_optimizer', 'merge_install': False, 'path': '/home/knapp/git/order_optimizer/src/order_optimizer', 'symlink_install': False, 'test_result_base': None}
+[1.286s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/knapp/git/order_optimizer/src/order_optimizer' with build type 'ament_cmake'
+[1.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/knapp/git/order_optimizer/src/order_optimizer'
+[1.310s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/knapp/git/order_optimizer/build/order_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knapp/ros2_foxy/install/ros2bag:/home/knapp/ros2_foxy/install/tracetools_launch:/home/knapp/ros2_foxy/install/topic_monitor:/home/knapp/ros2_foxy/install/examples_tf2_py:/home/knapp/ros2_foxy/install/sros2:/home/knapp/ros2_foxy/install/rqt_topic:/home/knapp/ros2_foxy/install/rqt_top:/home/knapp/ros2_foxy/install/rqt_srv:/home/knapp/ros2_foxy/install/rqt_shell:/home/knapp/ros2_foxy/install/rqt_service_caller:/home/knapp/ros2_foxy/install/rqt_reconfigure:/home/knapp/ros2_foxy/install/rqt_py_console:/home/knapp/ros2_foxy/install/rqt_publisher:/home/knapp/ros2_foxy/install/rqt_plot:/home/knapp/ros2_foxy/install/rqt_action:/home/knapp/ros2_foxy/install/rqt_msg:/home/knapp/ros2_foxy/install/rqt:/home/knapp/ros2_foxy/install/rqt_graph:/home/knapp/ros2_foxy/install/rqt_gui_py:/home/knapp/ros2_foxy/install/rqt_gui:/home/knapp/ros2_foxy/install/ros2trace:/home/knapp/ros2_foxy/install/ros2topic:/home/knapp/ros2_foxy/install/ros2test:/home/knapp/ros2_foxy/install/ros2component:/home/knapp/ros2_foxy/install/ros2param:/home/knapp/ros2_foxy/install/ros2lifecycle:/home/knapp/ros2_foxy/install/ros2service:/home/knapp/ros2_foxy/install/ros2run:/home/knapp/ros2_foxy/install/ros2launch:/home/knapp/ros2_foxy/install/ros2pkg:/home/knapp/ros2_foxy/install/ros2node:/home/knapp/ros2_foxy/install/ros2multicast:/home/knapp/ros2_foxy/install/ros2interface:/home/knapp/ros2_foxy/install/ros2doctor:/home/knapp/ros2_foxy/install/ros2action:/home/knapp/ros2_foxy/install/ros2cli:/home/knapp/ros2_foxy/install/quality_of_service_demo_py:/home/knapp/ros2_foxy/install/launch_testing_ros:/home/knapp/ros2_foxy/install/launch_ros:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_service:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_client:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/knapp/ros2_foxy/install/examples_rclpy_executors:/home/knapp/ros2_foxy/install/demo_nodes_py:/home/knapp/ros2_foxy/install/action_tutorials_py:/home/knapp/ros2_foxy/install/ament_uncrustify:/home/knapp/ros2_foxy/install/tracetools_trace:/home/knapp/ros2_foxy/install/tracetools_read:/home/knapp/ros2_foxy/install/test_launch_ros:/home/knapp/ros2_foxy/install/sensor_msgs_py:/home/knapp/ros2_foxy/install/rpyutils:/home/knapp/ros2_foxy/install/rosidl_runtime_py:/home/knapp/ros2_foxy/install/launch_yaml:/home/knapp/ros2_foxy/install/launch_xml:/home/knapp/ros2_foxy/install/launch_testing:/home/knapp/ros2_foxy/install/launch:/home/knapp/ros2_foxy/install/osrf_pycommon:/home/knapp/ros2_foxy/install/domain_coordinator:/home/knapp/ros2_foxy/install/ament_xmllint:/home/knapp/ros2_foxy/install/ament_pyflakes:/home/knapp/ros2_foxy/install/ament_pycodestyle:/home/knapp/ros2_foxy/install/ament_pep257:/home/knapp/ros2_foxy/install/ament_pclint:/home/knapp/ros2_foxy/install/ament_package:/home/knapp/ros2_foxy/install/ament_mypy:/home/knapp/ros2_foxy/install/ament_lint_cmake:/home/knapp/ros2_foxy/install/ament_flake8:/home/knapp/ros2_foxy/install/ament_copyright:/home/knapp/ros2_foxy/install/ament_lint:/home/knapp/ros2_foxy/install/ament_index_python:/home/knapp/ros2_foxy/install/ament_cpplint:/home/knapp/ros2_foxy/install/ament_cppcheck:/home/knapp/ros2_foxy/install/ament_clang_tidy:/home/knapp/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/knapp/git/order_optimizer/build/order_optimizer -- -j1 -l1
+[7.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/knapp/git/order_optimizer/build/order_optimizer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knapp/ros2_foxy/install/ros2bag:/home/knapp/ros2_foxy/install/tracetools_launch:/home/knapp/ros2_foxy/install/topic_monitor:/home/knapp/ros2_foxy/install/examples_tf2_py:/home/knapp/ros2_foxy/install/sros2:/home/knapp/ros2_foxy/install/rqt_topic:/home/knapp/ros2_foxy/install/rqt_top:/home/knapp/ros2_foxy/install/rqt_srv:/home/knapp/ros2_foxy/install/rqt_shell:/home/knapp/ros2_foxy/install/rqt_service_caller:/home/knapp/ros2_foxy/install/rqt_reconfigure:/home/knapp/ros2_foxy/install/rqt_py_console:/home/knapp/ros2_foxy/install/rqt_publisher:/home/knapp/ros2_foxy/install/rqt_plot:/home/knapp/ros2_foxy/install/rqt_action:/home/knapp/ros2_foxy/install/rqt_msg:/home/knapp/ros2_foxy/install/rqt:/home/knapp/ros2_foxy/install/rqt_graph:/home/knapp/ros2_foxy/install/rqt_gui_py:/home/knapp/ros2_foxy/install/rqt_gui:/home/knapp/ros2_foxy/install/ros2trace:/home/knapp/ros2_foxy/install/ros2topic:/home/knapp/ros2_foxy/install/ros2test:/home/knapp/ros2_foxy/install/ros2component:/home/knapp/ros2_foxy/install/ros2param:/home/knapp/ros2_foxy/install/ros2lifecycle:/home/knapp/ros2_foxy/install/ros2service:/home/knapp/ros2_foxy/install/ros2run:/home/knapp/ros2_foxy/install/ros2launch:/home/knapp/ros2_foxy/install/ros2pkg:/home/knapp/ros2_foxy/install/ros2node:/home/knapp/ros2_foxy/install/ros2multicast:/home/knapp/ros2_foxy/install/ros2interface:/home/knapp/ros2_foxy/install/ros2doctor:/home/knapp/ros2_foxy/install/ros2action:/home/knapp/ros2_foxy/install/ros2cli:/home/knapp/ros2_foxy/install/quality_of_service_demo_py:/home/knapp/ros2_foxy/install/launch_testing_ros:/home/knapp/ros2_foxy/install/launch_ros:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_service:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_client:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/knapp/ros2_foxy/install/examples_rclpy_executors:/home/knapp/ros2_foxy/install/demo_nodes_py:/home/knapp/ros2_foxy/install/action_tutorials_py:/home/knapp/ros2_foxy/install/ament_uncrustify:/home/knapp/ros2_foxy/install/tracetools_trace:/home/knapp/ros2_foxy/install/tracetools_read:/home/knapp/ros2_foxy/install/test_launch_ros:/home/knapp/ros2_foxy/install/sensor_msgs_py:/home/knapp/ros2_foxy/install/rpyutils:/home/knapp/ros2_foxy/install/rosidl_runtime_py:/home/knapp/ros2_foxy/install/launch_yaml:/home/knapp/ros2_foxy/install/launch_xml:/home/knapp/ros2_foxy/install/launch_testing:/home/knapp/ros2_foxy/install/launch:/home/knapp/ros2_foxy/install/osrf_pycommon:/home/knapp/ros2_foxy/install/domain_coordinator:/home/knapp/ros2_foxy/install/ament_xmllint:/home/knapp/ros2_foxy/install/ament_pyflakes:/home/knapp/ros2_foxy/install/ament_pycodestyle:/home/knapp/ros2_foxy/install/ament_pep257:/home/knapp/ros2_foxy/install/ament_pclint:/home/knapp/ros2_foxy/install/ament_package:/home/knapp/ros2_foxy/install/ament_mypy:/home/knapp/ros2_foxy/install/ament_lint_cmake:/home/knapp/ros2_foxy/install/ament_flake8:/home/knapp/ros2_foxy/install/ament_copyright:/home/knapp/ros2_foxy/install/ament_lint:/home/knapp/ros2_foxy/install/ament_index_python:/home/knapp/ros2_foxy/install/ament_cpplint:/home/knapp/ros2_foxy/install/ament_cppcheck:/home/knapp/ros2_foxy/install/ament_clang_tidy:/home/knapp/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/knapp/git/order_optimizer/build/order_optimizer -- -j1 -l1
+[8.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(order_optimizer)
+[8.063s] Level 1:colcon.colcon_core.environment:checking '/home/knapp/git/order_optimizer/install/order_optimizer' for CMake module files
+[8.065s] Level 1:colcon.colcon_core.environment:checking '/home/knapp/git/order_optimizer/install/order_optimizer' for CMake config files
+[8.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('order_optimizer', 'cmake_prefix_path')
+[8.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/hook/cmake_prefix_path.ps1'
+[8.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/hook/cmake_prefix_path.dsv'
+[8.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/hook/cmake_prefix_path.sh'
+[8.075s] Level 1:colcon.colcon_core.environment:checking '/home/knapp/git/order_optimizer/install/order_optimizer/lib'
+[8.076s] Level 1:colcon.colcon_core.environment:checking '/home/knapp/git/order_optimizer/install/order_optimizer/bin'
+[8.076s] Level 1:colcon.colcon_core.environment:checking '/home/knapp/git/order_optimizer/install/order_optimizer/lib/pkgconfig/order_optimizer.pc'
+[8.076s] Level 1:colcon.colcon_core.environment:checking '/home/knapp/git/order_optimizer/install/order_optimizer/lib/python3.8/site-packages'
+[8.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/package.ps1'
+[8.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/package.dsv'
+[8.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/package.sh'
+[8.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/package.bash'
+[8.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/package.zsh'
+[8.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/knapp/git/order_optimizer/install/order_optimizer/share/colcon-core/packages/order_optimizer)
+[8.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[8.114s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.187s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.187s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.187s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.249s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/knapp/git/order_optimizer/install/local_setup.ps1'
+[8.251s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/knapp/git/order_optimizer/install/_local_setup_util_ps1.py'
+[8.255s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/knapp/git/order_optimizer/install/setup.ps1'
+[8.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/knapp/git/order_optimizer/install/local_setup.sh'
+[8.339s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/knapp/git/order_optimizer/install/_local_setup_util_sh.py'
+[8.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/knapp/git/order_optimizer/install/setup.sh'
+[8.437s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/knapp/git/order_optimizer/install/local_setup.bash'
+[8.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/knapp/git/order_optimizer/install/setup.bash'
+[8.492s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/knapp/git/order_optimizer/install/local_setup.zsh'
+[8.493s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/knapp/git/order_optimizer/install/setup.zsh'

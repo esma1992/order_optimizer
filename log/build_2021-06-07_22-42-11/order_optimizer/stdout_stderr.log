@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target OrderOptimizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:13:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kproducts[m[K’ [[01;35m[K-Wpedantic[m[K]
+   13 |     int [01;35m[Kproducts[m[K[];
+      |         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:25:10:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kparts[m[K’ [[01;35m[K-Wpedantic[m[K]
+   25 |     part [01;35m[Kparts[m[K[];
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:74:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kfilesystem[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   74 |                 const std::[01;31m[Kfilesystem[m[K::path path(config_path); // Constructing the path from a string is possible.
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:76:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::filesystem[m[K’ has not been declared
+   76 |                 if (std::[01;31m[Kfilesystem[m[K::is_directory(path, ec))
+      |                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:76:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath[m[K’ was not declared in this scope
+   76 |                 if (std::filesystem::is_directory([01;31m[Kpath[m[K, ec))
+      |                                                   [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

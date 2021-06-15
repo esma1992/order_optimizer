@@ -1,0 +1,7 @@
+[ 25%] [32m[1mLinking CXX executable OrderOptimizer[0m
+/usr/bin/ld: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o: in function `main':
+subscriber_function.cpp:(.text+0x6b8): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:131: OrderOptimizer] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

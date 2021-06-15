@@ -1,0 +1,22 @@
+[ 50%] Built target OrderOptimizer
+[35m[1mScanning dependencies of target SendOrder[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable SendOrder[0m
+[100%] Built target SendOrder
+-- Install configuration: ""
+-- Installing: /home/knapp/git/order_optimizer/install/order_optimizer/lib/order_optimizer/SendOrder
+-- Set runtime path of "/home/knapp/git/order_optimizer/install/order_optimizer/lib/order_optimizer/SendOrder" to ""
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/lib/order_optimizer/OrderOptimizer
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/ament_index/resource_index/package_run_dependencies/order_optimizer
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/ament_index/resource_index/parent_prefix_path/order_optimizer
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/environment/path.dsv
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/local_setup.bash
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/local_setup.sh
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/local_setup.zsh
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/local_setup.dsv
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/package.dsv
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/ament_index/resource_index/packages/order_optimizer
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/cmake/order_optimizerConfig.cmake
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/cmake/order_optimizerConfig-version.cmake
+-- Up-to-date: /home/knapp/git/order_optimizer/install/order_optimizer/share/order_optimizer/package.xml

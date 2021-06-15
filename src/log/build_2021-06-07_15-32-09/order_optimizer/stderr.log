@@ -1,0 +1,22 @@
+CMake Warning at CMakeLists.txt:30 (find_package):
+  By not providing "FindREQUIRED.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "REQUIRED",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "REQUIRED" with any
+  of the following names:
+
+    REQUIREDConfig.cmake
+    required-config.cmake
+
+  Add the installation prefix of "REQUIRED" to CMAKE_PREFIX_PATH or set
+  "REQUIRED_DIR" to a directory containing one of the above files.  If
+  "REQUIRED" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+CMake Error at CMakeLists.txt:37 (generate_messages):
+  Unknown CMake command "generate_messages".
+
+
+make: *** [Makefile:310: cmake_check_build_system] Error 1

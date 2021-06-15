@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target OrderOptimizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:10:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::experimental[m[K’ has not been declared
+   10 | namespace fs = std::[01;31m[Kexperimental[m[K::filesystem;
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:10:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kfilesystem[m[K’ is not a namespace-name
+   10 | namespace fs = std::experimental::[01;31m[Kfilesystem[m[K;
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::next_order_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:225:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kfs[m[K’ has not been declared
+  225 |         for (const auto & entry : [01;31m[Kfs[m[K::directory_iterator(orders_path))
+      |                                   [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,45 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::fill_marker()[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:74:36:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ has not been declared
+   74 |         rviz_marker.header.stamp = [01;31m[KTime[m[K::now();
+      |                                    [01;31m[K^~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:75:32:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ was not declared in this scope
+   75 |         rviz_marker.lifetime = [01;31m[KDuration[m[K();
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:75:32:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/duration.hpp:26:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Duration[m[K’
+   26 | class RCLCPP_PUBLIC [01;36m[KDuration[m[K
+      |                     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/knapp/ros2_foxy/install/builtin_interfaces/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[01m[K/home/knapp/ros2_foxy/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__struct.hpp:135:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg::Duration[m[K’
+  135 | using [01;36m[KDuration[m[K =
+      |       [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

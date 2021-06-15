@@ -1,0 +1,76 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:10:28:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’?
+   10 | std::vector<geometry_msgs::[01;31m[KPoseStamped[m[K::ConstPtr> current_pos;
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/knapp/ros2_foxy/install/geometry_msgs/include/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:5[m[K:
+[01m[K/home/knapp/ros2_foxy/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ declared here
+  134 | using [01;36m[KPoseStamped[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:10:28:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’?
+   10 | std::vector<geometry_msgs::[01;31m[KPoseStamped[m[K::ConstPtr> current_pos;
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/knapp/ros2_foxy/install/geometry_msgs/include/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:5[m[K:
+[01m[K/home/knapp/ros2_foxy/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ declared here
+  134 | using [01;36m[KPoseStamped[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:10:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 | std::vector<geometry_msgs::PoseStamped::ConstPtr[01;31m[K>[m[K current_pos;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:10:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In constructor ‘[01m[KSendOrder::SendOrder()[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:20:24:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KSendOrder[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   20 |   : Node("SendOrder"), [01;31m[Kcount_[m[K(0)
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In member function ‘[01m[Kvoid SendOrder::current_position_callback()[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:34:80:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kposition[m[K’ in ‘[01m[Kcurrent_pos[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   34 |  = "Current Positions x and y:" + std::to_string(current_pos.[01;31m[Kposition[m[K.x) + " and " + std::to_string(current_pos.position.x);
+      |                                                              [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:34:131:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kposition[m[K’ in ‘[01m[Kcurrent_pos[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   34 | ing(current_pos.position.x) + " and " + std::to_string(current_pos.[01;31m[Kposition[m[K.x);
+      |                                                                    [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K At global scope:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:57:5:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kif[m[K’
+   57 |     [01;31m[Kif[m[K (argc != 7) {
+      |     [01;31m[K^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:69:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+   69 |     [01;31m[Kfor[m[K (int i=0; i<6; i++){
+      |     [01;31m[K^~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:69:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+   69 |     for (int i=0; [01;31m[Ki[m[K<6; i++){
+      |                   [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:69:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+   69 |     for (int i=0; i<6; [01;31m[Ki[m[K++){
+      |                        [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:100:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  100 |     [01;31m[Kif[m[K (parameters!=3){
+      |     [01;31m[K^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:105:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pos[m[K’ does not name a type
+  105 |     [01;31m[Kcurrent_pos[m[K.position.x = x;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pos[m[K’ does not name a type
+  106 |     [01;31m[Kcurrent_pos[m[K.position.y = y;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:107:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korder_id[m[K’ does not name a type
+  107 |     [01;31m[Korder_id[m[K = id;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:109:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  109 |   rclcpp::init[01;31m[K([m[Kargc, argv);
+      |               [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:110:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  110 |   rclcpp::spin[01;31m[K([m[Kstd::make_shared<SendOrder>());
+      |               [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:111:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  111 |   rclcpp::shutdown()[01;31m[K;[m[K
+      |                     [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:112:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  112 |   [01;31m[Kreturn[m[K 0;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:113:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  113 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/SendOrder.dir/build.make:63: CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/SendOrder.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,8 @@
+source;share/order_optimizer/hook/cmake_prefix_path.ps1
+source;share/order_optimizer/hook/cmake_prefix_path.dsv
+source;share/order_optimizer/hook/cmake_prefix_path.sh
+source;share/order_optimizer/local_setup.bash
+source;share/order_optimizer/local_setup.dsv
+source;share/order_optimizer/local_setup.ps1
+source;share/order_optimizer/local_setup.sh
+source;share/order_optimizer/local_setup.zsh

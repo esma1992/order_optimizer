@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target OrderOptimizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:19:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kproducts[m[K’ [[01;35m[K-Wpedantic[m[K]
+   19 |     int [01;35m[Kproducts[m[K[];
+      |         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:31:10:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kparts[m[K’ [[01;35m[K-Wpedantic[m[K]
+   31 |     part [01;35m[Kparts[m[K[];
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:63:7:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder>)[m[K’
+   63 | void  [01;31m[KYAML[m[K::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder>)
+      |       [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/local/include/yaml-cpp/node/detail/node_ref.h:13[m[K,
+                 from [01m[K/usr/local/include/yaml-cpp/node/detail/node.h:12[m[K,
+                 from [01m[K/usr/local/include/yaml-cpp/node/impl.h:12[m[K,
+                 from [01m[K/usr/local/include/yaml-cpp/yaml.h:17[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:6[m[K:
+[01m[K/usr/local/include/yaml-cpp/node/detail/node_data.h:94:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid YAML::detail::node_data::convert_to_map(const shared_memory_holder&)[m[K’
+   94 |   void [01;36m[Kconvert_to_map[m[K(const shared_memory_holder& pMemory);
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/yaml-cpp/node/detail/node_data.h:30:20:[m[K [01;36m[Knote: [m[K‘[01m[Kclass YAML::detail::node_data[m[K’ defined here
+   30 | class YAML_CPP_API [01;36m[Knode_data[m[K {
+      |                    [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

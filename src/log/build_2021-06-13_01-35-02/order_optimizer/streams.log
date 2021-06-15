@@ -1,0 +1,507 @@
+[0.158s] Invoking command in '/home/knapp/git/order_optimizer/build/order_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knapp/ros2_foxy/install/ros2bag:/home/knapp/ros2_foxy/install/tracetools_launch:/home/knapp/ros2_foxy/install/topic_monitor:/home/knapp/ros2_foxy/install/examples_tf2_py:/home/knapp/ros2_foxy/install/sros2:/home/knapp/ros2_foxy/install/rqt_topic:/home/knapp/ros2_foxy/install/rqt_top:/home/knapp/ros2_foxy/install/rqt_srv:/home/knapp/ros2_foxy/install/rqt_shell:/home/knapp/ros2_foxy/install/rqt_service_caller:/home/knapp/ros2_foxy/install/rqt_reconfigure:/home/knapp/ros2_foxy/install/rqt_py_console:/home/knapp/ros2_foxy/install/rqt_publisher:/home/knapp/ros2_foxy/install/rqt_plot:/home/knapp/ros2_foxy/install/rqt_action:/home/knapp/ros2_foxy/install/rqt_msg:/home/knapp/ros2_foxy/install/rqt:/home/knapp/ros2_foxy/install/rqt_graph:/home/knapp/ros2_foxy/install/rqt_gui_py:/home/knapp/ros2_foxy/install/rqt_gui:/home/knapp/ros2_foxy/install/ros2trace:/home/knapp/ros2_foxy/install/ros2topic:/home/knapp/ros2_foxy/install/ros2test:/home/knapp/ros2_foxy/install/ros2component:/home/knapp/ros2_foxy/install/ros2param:/home/knapp/ros2_foxy/install/ros2lifecycle:/home/knapp/ros2_foxy/install/ros2service:/home/knapp/ros2_foxy/install/ros2run:/home/knapp/ros2_foxy/install/ros2launch:/home/knapp/ros2_foxy/install/ros2pkg:/home/knapp/ros2_foxy/install/ros2node:/home/knapp/ros2_foxy/install/ros2multicast:/home/knapp/ros2_foxy/install/ros2interface:/home/knapp/ros2_foxy/install/ros2doctor:/home/knapp/ros2_foxy/install/ros2action:/home/knapp/ros2_foxy/install/ros2cli:/home/knapp/ros2_foxy/install/quality_of_service_demo_py:/home/knapp/ros2_foxy/install/launch_testing_ros:/home/knapp/ros2_foxy/install/launch_ros:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_service:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_client:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/knapp/ros2_foxy/install/examples_rclpy_executors:/home/knapp/ros2_foxy/install/demo_nodes_py:/home/knapp/ros2_foxy/install/action_tutorials_py:/home/knapp/ros2_foxy/install/ament_uncrustify:/home/knapp/ros2_foxy/install/tracetools_trace:/home/knapp/ros2_foxy/install/tracetools_read:/home/knapp/ros2_foxy/install/test_launch_ros:/home/knapp/ros2_foxy/install/sensor_msgs_py:/home/knapp/ros2_foxy/install/rpyutils:/home/knapp/ros2_foxy/install/rosidl_runtime_py:/home/knapp/ros2_foxy/install/launch_yaml:/home/knapp/ros2_foxy/install/launch_xml:/home/knapp/ros2_foxy/install/launch_testing:/home/knapp/ros2_foxy/install/launch:/home/knapp/ros2_foxy/install/osrf_pycommon:/home/knapp/ros2_foxy/install/domain_coordinator:/home/knapp/ros2_foxy/install/ament_xmllint:/home/knapp/ros2_foxy/install/ament_pyflakes:/home/knapp/ros2_foxy/install/ament_pycodestyle:/home/knapp/ros2_foxy/install/ament_pep257:/home/knapp/ros2_foxy/install/ament_pclint:/home/knapp/ros2_foxy/install/ament_package:/home/knapp/ros2_foxy/install/ament_mypy:/home/knapp/ros2_foxy/install/ament_lint_cmake:/home/knapp/ros2_foxy/install/ament_flake8:/home/knapp/ros2_foxy/install/ament_copyright:/home/knapp/ros2_foxy/install/ament_lint:/home/knapp/ros2_foxy/install/ament_index_python:/home/knapp/ros2_foxy/install/ament_cpplint:/home/knapp/ros2_foxy/install/ament_cppcheck:/home/knapp/ros2_foxy/install/ament_clang_tidy:/home/knapp/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/knapp/git/order_optimizer/build/order_optimizer -- -j1 -l1
+[0.388s] [35m[1mScanning dependencies of target OrderOptimizer[0m
+[0.497s] [ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[9.720s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.720s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>>[m[K’ (operand types are ‘[01m[Kconst YAML::Node[m[K’ and ‘[01m[Kpart[m[K’)
+[9.721s]   123 |             parts[it2] >> part_;
+[9.721s] In file included from [01m[K/usr/include/c++/9/string:56[m[K,
+[9.722s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[9.722s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[9.723s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[9.724s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[9.728s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[9.728s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:1[m[K:
+[9.728s] [01m[K/usr/include/c++/9/bits/basic_string.tcc:1466:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)[m[K’
+[9.729s]  1466 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __in,
+[9.729s]       |     [01;36m[K^~~~~~~~[m[K
+[9.729s] [01m[K/usr/include/c++/9/bits/basic_string.tcc:1466:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.729s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.730s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.730s]       |                           [01;36m[K^~~~~[m[K
+[9.733s] In file included from [01m[K/usr/include/c++/9/istream:991[m[K,
+[9.734s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.734s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.734s] [01m[K/usr/include/c++/9/bits/istream.tcc:931:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)[m[K’
+[9.734s]   931 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+[9.734s]       |     [01;36m[K^~~~~~~~[m[K
+[9.734s] [01m[K/usr/include/c++/9/bits/istream.tcc:931:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.734s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.734s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.735s]       |                           [01;36m[K^~~~~[m[K
+[9.745s] In file included from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.745s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.745s] [01m[K/usr/include/c++/9/istream:756:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)[m[K’
+[9.745s]   756 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+[9.746s]       |     [01;36m[K^~~~~~~~[m[K
+[9.746s] [01m[K/usr/include/c++/9/istream:756:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.746s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.746s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.746s]       |                           [01;36m[K^~~~~[m[K
+[9.747s] In file included from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.747s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.747s] [01m[K/usr/include/c++/9/istream:761:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)[m[K’
+[9.765s]   761 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, signed char& __c)
+[9.766s]       |     [01;36m[K^~~~~~~~[m[K
+[9.766s] [01m[K/usr/include/c++/9/istream:761:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.766s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.766s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.766s]       |                           [01;36m[K^~~~~[m[K
+[9.766s] In file included from [01m[K/usr/include/c++/9/istream:991[m[K,
+[9.766s]                  from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.767s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.767s] [01m[K/usr/include/c++/9/bits/istream.tcc:963:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)[m[K’
+[9.767s]   963 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+[9.767s]       |     [01;36m[K^~~~~~~~[m[K
+[9.767s] [01m[K/usr/include/c++/9/bits/istream.tcc:963:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.767s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.767s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.768s]       |                           [01;36m[K^~~~~[m[K
+[9.768s] In file included from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.768s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.768s] [01m[K/usr/include/c++/9/istream:803:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)[m[K’
+[9.768s]   803 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+[9.768s]       |     [01;36m[K^~~~~~~~[m[K
+[9.788s] [01m[K/usr/include/c++/9/istream:803:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.792s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.792s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.792s]       |                           [01;36m[K^~~~~[m[K
+[9.792s] In file included from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.792s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.792s] [01m[K/usr/include/c++/9/istream:808:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)[m[K’
+[9.793s]   808 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, signed char* __s)
+[9.793s]       |     [01;36m[K^~~~~~~~[m[K
+[9.793s] [01m[K/usr/include/c++/9/istream:808:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.793s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<char, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.793s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.793s]       |                           [01;36m[K^~~~~[m[K
+[9.793s] In file included from [01m[K/usr/include/c++/9/fstream:38[m[K,
+[9.793s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:2[m[K:
+[9.794s] [01m[K/usr/include/c++/9/istream:980:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Istream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_istream<_Istream>, std::__is_extractable<typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type, _Tp&&, void> >::value, typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type>::type std::operator>>(_Istream&&, _Tp&&)[m[K’
+[9.794s]   980 |     [01;36m[Koperator[m[K>>(_Istream&& __is, _Tp&& __x)
+[9.794s]       |     [01;36m[K^~~~~~~~[m[K
+[9.794s] [01m[K/usr/include/c++/9/istream:980:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.794s] /usr/include/c++/9/istream: In substitution of ‘[01m[Ktemplate<class _Istream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_istream<_Istream>, std::__is_extractable<typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type, _Tp&&, void> >::value, typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type>::type std::operator>>(_Istream&&, _Tp&&) [with _Istream = const YAML::Node; _Tp = part&][m[K’:
+[9.794s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K   required from here
+[9.794s] [01m[K/usr/include/c++/9/istream:980:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[9.794s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[9.795s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[9.795s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.795s] [01m[K/usr/include/c++/9/complex:498:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::complex<_Tp>&)[m[K’
+[9.795s]   498 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, complex<_Tp>& __x)
+[9.795s]       |     [01;36m[K^~~~~~~~[m[K
+[9.795s] [01m[K/usr/include/c++/9/complex:498:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.795s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.796s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.796s]       |                           [01;36m[K^~~~~[m[K
+[9.796s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:66[m[K,
+[9.796s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.808s] [01m[K/usr/include/c++/9/bitset:1470:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, long unsigned int _Nb> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bitset<_Nb>&)[m[K’
+[9.808s]  1470 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is, bitset<_Nb>& __x)
+[9.808s]       |     [01;36m[K^~~~~~~~[m[K
+[9.809s] [01m[K/usr/include/c++/9/bitset:1470:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.809s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.809s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.809s]       |                           [01;36m[K^~~~~[m[K
+[9.809s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[9.810s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.810s] [01m[K/usr/include/c++/9/iomanip:71:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Resetiosflags)[m[K’
+[9.810s]    71 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Resetiosflags __f)
+[9.810s]       |     [01;36m[K^~~~~~~~[m[K
+[9.810s] [01m[K/usr/include/c++/9/iomanip:71:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.810s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.810s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.811s]       |                           [01;36m[K^~~~~[m[K
+[9.811s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[9.811s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.811s] [01m[K/usr/include/c++/9/iomanip:101:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setiosflags)[m[K’
+[9.823s]   101 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setiosflags __f)
+[9.823s]       |     [01;36m[K^~~~~~~~[m[K
+[9.824s] [01m[K/usr/include/c++/9/iomanip:101:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.824s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.824s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.824s]       |                           [01;36m[K^~~~~[m[K
+[9.824s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[9.824s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.825s] [01m[K/usr/include/c++/9/iomanip:132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setbase)[m[K’
+[9.825s]   132 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setbase __f)
+[9.825s]       |     [01;36m[K^~~~~~~~[m[K
+[9.825s] [01m[K/usr/include/c++/9/iomanip:132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.825s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.825s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.826s]       |                           [01;36m[K^~~~~[m[K
+[9.826s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[9.826s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.826s] [01m[K/usr/include/c++/9/iomanip:170:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setfill<_CharT>)[m[K’
+[9.826s]   170 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setfill<_CharT> __f)
+[9.826s]       |     [01;36m[K^~~~~~~~[m[K
+[9.826s] [01m[K/usr/include/c++/9/iomanip:170:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.827s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.827s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.827s]       |                           [01;36m[K^~~~~[m[K
+[9.827s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[9.827s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.827s] [01m[K/usr/include/c++/9/iomanip:200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setprecision)[m[K’
+[9.848s]   200 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setprecision __f)
+[9.848s]       |     [01;36m[K^~~~~~~~[m[K
+[9.849s] [01m[K/usr/include/c++/9/iomanip:200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.849s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.850s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.850s]       |                           [01;36m[K^~~~~[m[K
+[9.850s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[9.864s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.866s] [01m[K/usr/include/c++/9/iomanip:230:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setw)[m[K’
+[9.866s]   230 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setw __f)
+[9.867s]       |     [01;36m[K^~~~~~~~[m[K
+[9.867s] [01m[K/usr/include/c++/9/iomanip:230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.867s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.868s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.868s]       |                           [01;36m[K^~~~~[m[K
+[9.880s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[9.880s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.881s] [01m[K/usr/include/c++/9/iomanip:264:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_money<_MoneyT>)[m[K’
+[9.881s]   264 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Get_money<_MoneyT> __f)
+[9.881s]       |     [01;36m[K^~~~~~~~[m[K
+[9.881s] [01m[K/usr/include/c++/9/iomanip:264:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.882s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.882s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.882s]       |                           [01;36m[K^~~~~[m[K
+[9.882s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+[9.882s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.882s] [01m[K/usr/include/c++/9/iomanip:418:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_time<_CharT>)[m[K’
+[9.883s]   418 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Get_time<_CharT> __f)
+[9.883s]       |     [01;36m[K^~~~~~~~[m[K
+[9.883s] [01m[K/usr/include/c++/9/iomanip:418:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.883s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.883s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.883s]       |                           [01;36m[K^~~~~[m[K
+[9.896s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[9.900s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[9.901s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.901s] [01m[K/usr/include/c++/9/bits/valarray_after.h:414:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__shift_right, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)[m[K’
+[9.901s]   414 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(>>, __shift_right)
+[9.901s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.901s] [01m[K/usr/include/c++/9/bits/valarray_after.h:414:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.902s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst YAML::Node[m[K’ is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[9.902s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.902s]       |                           [01;36m[K^~~~~[m[K
+[9.902s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[9.902s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[9.902s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.902s] [01m[K/usr/include/c++/9/bits/valarray_after.h:414:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_right, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)[m[K’
+[9.903s]   414 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(>>, __shift_right)
+[9.903s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.903s] [01m[K/usr/include/c++/9/bits/valarray_after.h:414:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.903s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst YAML::Node[m[K’ is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[9.903s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.912s]       |                           [01;36m[K^~~~~[m[K
+[9.912s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[9.912s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[9.912s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.913s] [01m[K/usr/include/c++/9/bits/valarray_after.h:414:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_right, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[9.913s]   414 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(>>, __shift_right)
+[9.913s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.913s] [01m[K/usr/include/c++/9/bits/valarray_after.h:414:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.913s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpart[m[K’ is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[9.913s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.913s]       |                           [01;36m[K^~~~~[m[K
+[9.914s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[9.914s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[9.914s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.914s] [01m[K/usr/include/c++/9/bits/valarray_after.h:414:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_right, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)[m[K’
+[9.914s]   414 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(>>, __shift_right)
+[9.914s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.915s] [01m[K/usr/include/c++/9/bits/valarray_after.h:414:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.915s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst YAML::Node[m[K’ is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[9.915s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.915s]       |                           [01;36m[K^~~~~[m[K
+[9.915s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[9.932s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[9.932s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.932s] [01m[K/usr/include/c++/9/bits/valarray_after.h:414:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_right, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[9.932s]   414 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(>>, __shift_right)
+[9.933s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.933s] [01m[K/usr/include/c++/9/bits/valarray_after.h:414:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.933s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpart[m[K’ is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[9.933s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.933s]       |                           [01;36m[K^~~~~[m[K
+[9.933s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[9.933s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.934s] [01m[K/usr/include/c++/9/valarray:1194:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_right, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_right, _Tp>::result_type> std::operator>>(const std::valarray<_Tp>&, const std::valarray<_Tp>&)[m[K’
+[9.934s]  1194 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(>>, __shift_right)
+[9.934s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.934s] [01m[K/usr/include/c++/9/valarray:1194:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.934s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst YAML::Node[m[K’ is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[9.934s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.934s]       |                           [01;36m[K^~~~~[m[K
+[9.934s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[9.935s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.935s] [01m[K/usr/include/c++/9/valarray:1194:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_right, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__shift_right, _Tp>::result_type> std::operator>>(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)[m[K’
+[9.935s]  1194 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(>>, __shift_right)
+[9.935s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.935s] [01m[K/usr/include/c++/9/valarray:1194:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.935s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst YAML::Node[m[K’ is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[9.935s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.935s]       |                           [01;36m[K^~~~~[m[K
+[9.947s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[9.947s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.947s] [01m[K/usr/include/c++/9/valarray:1194:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_right, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_right, _Tp>::result_type> std::operator>>(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)[m[K’
+[9.948s]  1194 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(>>, __shift_right)
+[9.948s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.948s] [01m[K/usr/include/c++/9/valarray:1194:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.948s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpart[m[K’ is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[9.948s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.948s]       |                           [01;36m[K^~~~~[m[K
+[9.949s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[9.949s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[9.949s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.949s] [01m[K/usr/include/c++/9/bits/random.tcc:898:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::uniform_int_distribution<_IntType>&)[m[K’
+[9.949s]   898 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[9.949s]       |     [01;36m[K^~~~~~~~[m[K
+[9.949s] [01m[K/usr/include/c++/9/bits/random.tcc:898:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.949s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.950s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.950s]       |                           [01;36m[K^~~~~[m[K
+[9.950s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[9.950s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[9.950s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.950s] [01m[K/usr/include/c++/9/bits/random.tcc:960:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::uniform_real_distribution<_IntType>&)[m[K’
+[9.950s]   960 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[9.950s]       |     [01;36m[K^~~~~~~~[m[K
+[9.951s] [01m[K/usr/include/c++/9/bits/random.tcc:960:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.951s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.951s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.951s]       |                           [01;36m[K^~~~~[m[K
+[9.951s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[9.951s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[9.951s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.951s] [01m[K/usr/include/c++/9/bits/random.tcc:2157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::cauchy_distribution<_RealType>&)[m[K’
+[9.952s]  2157 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[9.952s]       |     [01;36m[K^~~~~~~~[m[K
+[9.972s] [01m[K/usr/include/c++/9/bits/random.tcc:2157:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.972s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.972s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.972s]       |                           [01;36m[K^~~~~[m[K
+[9.972s] In file included from [01m[K/usr/include/c++/9/random:49[m[K,
+[9.973s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[9.973s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.973s] [01m[K/usr/include/c++/9/bits/random.h:3714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bernoulli_distribution&)[m[K’
+[9.973s]  3714 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[9.973s]       |     [01;36m[K^~~~~~~~[m[K
+[9.973s] [01m[K/usr/include/c++/9/bits/random.h:3714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.974s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.974s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.974s]       |                           [01;36m[K^~~~~[m[K
+[9.974s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[9.974s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[9.974s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.974s] [01m[K/usr/include/c++/9/bits/random.tcc:1104:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::geometric_distribution<_IntType>&)[m[K’
+[9.974s]  1104 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[9.975s]       |     [01;36m[K^~~~~~~~[m[K
+[9.975s] [01m[K/usr/include/c++/9/bits/random.tcc:1104:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.975s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.975s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.975s]       |                           [01;36m[K^~~~~[m[K
+[9.975s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[9.975s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[9.975s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.976s] [01m[K/usr/include/c++/9/bits/random.tcc:1760:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::exponential_distribution<_RealType>&)[m[K’
+[9.976s]  1760 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[9.976s]       |     [01;36m[K^~~~~~~~[m[K
+[9.976s] [01m[K/usr/include/c++/9/bits/random.tcc:1760:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.976s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.976s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.992s]       |                           [01;36m[K^~~~~[m[K
+[9.992s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[9.992s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[9.993s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.993s] [01m[K/usr/include/c++/9/bits/random.tcc:2556:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::weibull_distribution<_RealType>&)[m[K’
+[9.993s]  2556 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[9.993s]       |     [01;36m[K^~~~~~~~[m[K
+[9.993s] [01m[K/usr/include/c++/9/bits/random.tcc:2556:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.993s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.993s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.993s]       |                           [01;36m[K^~~~~[m[K
+[9.994s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[9.994s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[9.994s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[9.994s] [01m[K/usr/include/c++/9/bits/random.tcc:2632:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::extreme_value_distribution<_RealType>&)[m[K’
+[9.994s]  2632 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[9.994s]       |     [01;36m[K^~~~~~~~[m[K
+[9.995s] [01m[K/usr/include/c++/9/bits/random.tcc:2632:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.995s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[9.995s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[9.995s]       |                           [01;36m[K^~~~~[m[K
+[9.995s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[9.995s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[9.995s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.000s] [01m[K/usr/include/c++/9/bits/random.tcc:176:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::linear_congruential_engine<_UIntType, __a, __c, __m>&)[m[K’
+[10.008s]   176 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.008s]       |     [01;36m[K^~~~~~~~[m[K
+[10.009s] [01m[K/usr/include/c++/9/bits/random.tcc:176:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.009s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.009s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.009s]       |                           [01;36m[K^~~~~[m[K
+[10.009s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.009s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.009s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.010s] [01m[K/usr/include/c++/9/bits/random.tcc:504:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _UIntType1, long unsigned int __w1, long unsigned int __n1, long unsigned int __m1, long unsigned int __r1, _UIntType1 __a1, long unsigned int __u1, _UIntType1 __d1, long unsigned int __s1, _UIntType1 __b1, long unsigned int __t1, _UIntType1 __c1, long unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)[m[K’
+[10.010s]   504 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.010s]       |     [01;36m[K^~~~~~~~[m[K
+[10.010s] [01m[K/usr/include/c++/9/bits/random.tcc:504:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.010s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.010s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.010s]       |                           [01;36m[K^~~~~[m[K
+[10.010s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.010s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.011s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.011s] [01m[K/usr/include/c++/9/bits/random.tcc:657:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _UIntType, long unsigned int __w, long unsigned int __s, long unsigned int __r, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)[m[K’
+[10.011s]   657 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.011s]       |     [01;36m[K^~~~~~~~[m[K
+[10.016s] [01m[K/usr/include/c++/9/bits/random.tcc:657:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.016s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.017s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.017s]       |                           [01;36m[K^~~~~[m[K
+[10.017s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.017s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.017s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.017s] [01m[K/usr/include/c++/9/bits/random.tcc:725:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RandomNumberEngine, long unsigned int __p, long unsigned int __r, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::discard_block_engine<_RandomNumberEngine, __p, __r>&)[m[K’
+[10.018s]   725 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.018s]       |     [01;36m[K^~~~~~~~[m[K
+[10.018s] [01m[K/usr/include/c++/9/bits/random.tcc:725:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.018s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.018s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.018s]       |                           [01;36m[K^~~~~[m[K
+[10.018s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.019s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.019s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.019s] [01m[K/usr/include/c++/9/bits/random.tcc:856:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RandomNumberEngine, long unsigned int __k, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::shuffle_order_engine<_RandomNumberEngine, __k>&)[m[K’
+[10.019s]   856 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.019s]       |     [01;36m[K^~~~~~~~[m[K
+[10.019s] [01m[K/usr/include/c++/9/bits/random.tcc:856:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.019s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.019s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.036s]       |                           [01;36m[K^~~~~[m[K
+[10.036s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.036s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.036s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.036s] [01m[K/usr/include/c++/9/bits/random.tcc:1220:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::negative_binomial_distribution<_IntType>&)[m[K’
+[10.037s]  1220 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.037s]       |     [01;36m[K^~~~~~~~[m[K
+[10.037s] [01m[K/usr/include/c++/9/bits/random.tcc:1220:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.037s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.037s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.037s]       |                           [01;36m[K^~~~~[m[K
+[10.037s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.038s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.038s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.038s] [01m[K/usr/include/c++/9/bits/random.tcc:1431:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::poisson_distribution<_IntType>&)[m[K’
+[10.038s]  1431 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.038s]       |     [01;36m[K^~~~~~~~[m[K
+[10.038s] [01m[K/usr/include/c++/9/bits/random.tcc:1431:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.038s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.038s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.039s]       |                           [01;36m[K^~~~~[m[K
+[10.039s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.039s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.039s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.039s] [01m[K/usr/include/c++/9/bits/random.tcc:1699:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::binomial_distribution<_IntType>&)[m[K’
+[10.039s]  1699 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.054s]       |     [01;36m[K^~~~~~~~[m[K
+[10.054s] [01m[K/usr/include/c++/9/bits/random.tcc:1699:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.054s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.055s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.055s]       |                           [01;36m[K^~~~~[m[K
+[10.056s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.056s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.056s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.058s] [01m[K/usr/include/c++/9/bits/random.tcc:1931:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::normal_distribution<_RealType>&)[m[K’
+[10.058s]  1931 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.058s]       |     [01;36m[K^~~~~~~~[m[K
+[10.058s] [01m[K/usr/include/c++/9/bits/random.tcc:1931:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.058s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.058s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.059s]       |                           [01;36m[K^~~~~[m[K
+[10.059s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.059s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.059s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.059s] [01m[K/usr/include/c++/9/bits/random.tcc:1998:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::lognormal_distribution<_RealType>&)[m[K’
+[10.059s]  1998 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.060s]       |     [01;36m[K^~~~~~~~[m[K
+[10.067s] [01m[K/usr/include/c++/9/bits/random.tcc:1998:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.067s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.067s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.067s]       |                           [01;36m[K^~~~~[m[K
+[10.067s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.067s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.067s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.068s] [01m[K/usr/include/c++/9/bits/random.tcc:2070:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::chi_squared_distribution<_RealType>&)[m[K’
+[10.068s]  2070 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.068s]       |     [01;36m[K^~~~~~~~[m[K
+[10.072s] [01m[K/usr/include/c++/9/bits/random.tcc:2070:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.072s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.073s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.073s]       |                           [01;36m[K^~~~~[m[K
+[10.073s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.073s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.073s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.073s] [01m[K/usr/include/c++/9/bits/random.tcc:2235:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::fisher_f_distribution<_RealType>&)[m[K’
+[10.073s]  2235 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.073s]       |     [01;36m[K^~~~~~~~[m[K
+[10.073s] [01m[K/usr/include/c++/9/bits/random.tcc:2235:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.074s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.074s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.074s]       |                           [01;36m[K^~~~~[m[K
+[10.074s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.074s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.074s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.074s] [01m[K/usr/include/c++/9/bits/random.tcc:2309:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::student_t_distribution<_RealType>&)[m[K’
+[10.074s]  2309 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.075s]       |     [01;36m[K^~~~~~~~[m[K
+[10.075s] [01m[K/usr/include/c++/9/bits/random.tcc:2309:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.075s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.075s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.075s]       |                           [01;36m[K^~~~~[m[K
+[10.075s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.075s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.090s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.090s] [01m[K/usr/include/c++/9/bits/random.tcc:2479:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::gamma_distribution<_RealType>&)[m[K’
+[10.091s]  2479 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.091s]       |     [01;36m[K^~~~~~~~[m[K
+[10.091s] [01m[K/usr/include/c++/9/bits/random.tcc:2479:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.091s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.091s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.091s]       |                           [01;36m[K^~~~~[m[K
+[10.091s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.091s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.092s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.092s] [01m[K/usr/include/c++/9/bits/random.tcc:2791:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::discrete_distribution<_IntType>&)[m[K’
+[10.092s]  2791 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.092s]       |     [01;36m[K^~~~~~~~[m[K
+[10.092s] [01m[K/usr/include/c++/9/bits/random.tcc:2791:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.092s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.092s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.093s]       |                           [01;36m[K^~~~~[m[K
+[10.093s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.093s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.093s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.093s] [01m[K/usr/include/c++/9/bits/random.tcc:2999:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::piecewise_constant_distribution<_RealType>&)[m[K’
+[10.093s]  2999 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.093s]       |     [01;36m[K^~~~~~~~[m[K
+[10.094s] [01m[K/usr/include/c++/9/bits/random.tcc:2999:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.094s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.094s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.094s]       |                           [01;36m[K^~~~~[m[K
+[10.094s] In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+[10.094s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+[10.094s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.095s] [01m[K/usr/include/c++/9/bits/random.tcc:3206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::piecewise_linear_distribution<_RealType>&)[m[K’
+[10.095s]  3206 |     [01;36m[Koperator[m[K>>(std::basic_istream<_CharT, _Traits>& __is,
+[10.095s]       |     [01;36m[K^~~~~~~~[m[K
+[10.095s] [01m[K/usr/include/c++/9/bits/random.tcc:3206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.095s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:27:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst YAML::Node[m[K’ have incompatible cv-qualifiers
+[10.095s]   123 |             parts[it2] >> [01;36m[Kpart_[m[K;
+[10.095s]       |                           [01;36m[K^~~~~[m[K
+[16.313s] make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+[16.316s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+[16.316s] make: *** [Makefile:141: all] Error 2
+[16.323s] Invoked command in '/home/knapp/git/order_optimizer/build/order_optimizer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knapp/ros2_foxy/install/ros2bag:/home/knapp/ros2_foxy/install/tracetools_launch:/home/knapp/ros2_foxy/install/topic_monitor:/home/knapp/ros2_foxy/install/examples_tf2_py:/home/knapp/ros2_foxy/install/sros2:/home/knapp/ros2_foxy/install/rqt_topic:/home/knapp/ros2_foxy/install/rqt_top:/home/knapp/ros2_foxy/install/rqt_srv:/home/knapp/ros2_foxy/install/rqt_shell:/home/knapp/ros2_foxy/install/rqt_service_caller:/home/knapp/ros2_foxy/install/rqt_reconfigure:/home/knapp/ros2_foxy/install/rqt_py_console:/home/knapp/ros2_foxy/install/rqt_publisher:/home/knapp/ros2_foxy/install/rqt_plot:/home/knapp/ros2_foxy/install/rqt_action:/home/knapp/ros2_foxy/install/rqt_msg:/home/knapp/ros2_foxy/install/rqt:/home/knapp/ros2_foxy/install/rqt_graph:/home/knapp/ros2_foxy/install/rqt_gui_py:/home/knapp/ros2_foxy/install/rqt_gui:/home/knapp/ros2_foxy/install/ros2trace:/home/knapp/ros2_foxy/install/ros2topic:/home/knapp/ros2_foxy/install/ros2test:/home/knapp/ros2_foxy/install/ros2component:/home/knapp/ros2_foxy/install/ros2param:/home/knapp/ros2_foxy/install/ros2lifecycle:/home/knapp/ros2_foxy/install/ros2service:/home/knapp/ros2_foxy/install/ros2run:/home/knapp/ros2_foxy/install/ros2launch:/home/knapp/ros2_foxy/install/ros2pkg:/home/knapp/ros2_foxy/install/ros2node:/home/knapp/ros2_foxy/install/ros2multicast:/home/knapp/ros2_foxy/install/ros2interface:/home/knapp/ros2_foxy/install/ros2doctor:/home/knapp/ros2_foxy/install/ros2action:/home/knapp/ros2_foxy/install/ros2cli:/home/knapp/ros2_foxy/install/quality_of_service_demo_py:/home/knapp/ros2_foxy/install/launch_testing_ros:/home/knapp/ros2_foxy/install/launch_ros:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_service:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_client:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/knapp/ros2_foxy/install/examples_rclpy_executors:/home/knapp/ros2_foxy/install/demo_nodes_py:/home/knapp/ros2_foxy/install/action_tutorials_py:/home/knapp/ros2_foxy/install/ament_uncrustify:/home/knapp/ros2_foxy/install/tracetools_trace:/home/knapp/ros2_foxy/install/tracetools_read:/home/knapp/ros2_foxy/install/test_launch_ros:/home/knapp/ros2_foxy/install/sensor_msgs_py:/home/knapp/ros2_foxy/install/rpyutils:/home/knapp/ros2_foxy/install/rosidl_runtime_py:/home/knapp/ros2_foxy/install/launch_yaml:/home/knapp/ros2_foxy/install/launch_xml:/home/knapp/ros2_foxy/install/launch_testing:/home/knapp/ros2_foxy/install/launch:/home/knapp/ros2_foxy/install/osrf_pycommon:/home/knapp/ros2_foxy/install/domain_coordinator:/home/knapp/ros2_foxy/install/ament_xmllint:/home/knapp/ros2_foxy/install/ament_pyflakes:/home/knapp/ros2_foxy/install/ament_pycodestyle:/home/knapp/ros2_foxy/install/ament_pep257:/home/knapp/ros2_foxy/install/ament_pclint:/home/knapp/ros2_foxy/install/ament_package:/home/knapp/ros2_foxy/install/ament_mypy:/home/knapp/ros2_foxy/install/ament_lint_cmake:/home/knapp/ros2_foxy/install/ament_flake8:/home/knapp/ros2_foxy/install/ament_copyright:/home/knapp/ros2_foxy/install/ament_lint:/home/knapp/ros2_foxy/install/ament_index_python:/home/knapp/ros2_foxy/install/ament_cpplint:/home/knapp/ros2_foxy/install/ament_cppcheck:/home/knapp/ros2_foxy/install/ament_clang_tidy:/home/knapp/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/knapp/git/order_optimizer/build/order_optimizer -- -j1 -l1

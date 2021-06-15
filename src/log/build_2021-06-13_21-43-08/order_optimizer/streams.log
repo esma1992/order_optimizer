@@ -1,0 +1,544 @@
+[0.353s] Invoking command in '/home/knapp/git/order_optimizer/build/order_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knapp/ros2_foxy/install/ros2bag:/home/knapp/ros2_foxy/install/tracetools_launch:/home/knapp/ros2_foxy/install/topic_monitor:/home/knapp/ros2_foxy/install/examples_tf2_py:/home/knapp/ros2_foxy/install/sros2:/home/knapp/ros2_foxy/install/rqt_topic:/home/knapp/ros2_foxy/install/rqt_top:/home/knapp/ros2_foxy/install/rqt_srv:/home/knapp/ros2_foxy/install/rqt_shell:/home/knapp/ros2_foxy/install/rqt_service_caller:/home/knapp/ros2_foxy/install/rqt_reconfigure:/home/knapp/ros2_foxy/install/rqt_py_console:/home/knapp/ros2_foxy/install/rqt_publisher:/home/knapp/ros2_foxy/install/rqt_plot:/home/knapp/ros2_foxy/install/rqt_action:/home/knapp/ros2_foxy/install/rqt_msg:/home/knapp/ros2_foxy/install/rqt:/home/knapp/ros2_foxy/install/rqt_graph:/home/knapp/ros2_foxy/install/rqt_gui_py:/home/knapp/ros2_foxy/install/rqt_gui:/home/knapp/ros2_foxy/install/ros2trace:/home/knapp/ros2_foxy/install/ros2topic:/home/knapp/ros2_foxy/install/ros2test:/home/knapp/ros2_foxy/install/ros2component:/home/knapp/ros2_foxy/install/ros2param:/home/knapp/ros2_foxy/install/ros2lifecycle:/home/knapp/ros2_foxy/install/ros2service:/home/knapp/ros2_foxy/install/ros2run:/home/knapp/ros2_foxy/install/ros2launch:/home/knapp/ros2_foxy/install/ros2pkg:/home/knapp/ros2_foxy/install/ros2node:/home/knapp/ros2_foxy/install/ros2multicast:/home/knapp/ros2_foxy/install/ros2interface:/home/knapp/ros2_foxy/install/ros2doctor:/home/knapp/ros2_foxy/install/ros2action:/home/knapp/ros2_foxy/install/ros2cli:/home/knapp/ros2_foxy/install/quality_of_service_demo_py:/home/knapp/ros2_foxy/install/launch_testing_ros:/home/knapp/ros2_foxy/install/launch_ros:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_service:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_client:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/knapp/ros2_foxy/install/examples_rclpy_executors:/home/knapp/ros2_foxy/install/demo_nodes_py:/home/knapp/ros2_foxy/install/action_tutorials_py:/home/knapp/ros2_foxy/install/ament_uncrustify:/home/knapp/ros2_foxy/install/tracetools_trace:/home/knapp/ros2_foxy/install/tracetools_read:/home/knapp/ros2_foxy/install/test_launch_ros:/home/knapp/ros2_foxy/install/sensor_msgs_py:/home/knapp/ros2_foxy/install/rpyutils:/home/knapp/ros2_foxy/install/rosidl_runtime_py:/home/knapp/ros2_foxy/install/launch_yaml:/home/knapp/ros2_foxy/install/launch_xml:/home/knapp/ros2_foxy/install/launch_testing:/home/knapp/ros2_foxy/install/launch:/home/knapp/ros2_foxy/install/osrf_pycommon:/home/knapp/ros2_foxy/install/domain_coordinator:/home/knapp/ros2_foxy/install/ament_xmllint:/home/knapp/ros2_foxy/install/ament_pyflakes:/home/knapp/ros2_foxy/install/ament_pycodestyle:/home/knapp/ros2_foxy/install/ament_pep257:/home/knapp/ros2_foxy/install/ament_pclint:/home/knapp/ros2_foxy/install/ament_package:/home/knapp/ros2_foxy/install/ament_mypy:/home/knapp/ros2_foxy/install/ament_lint_cmake:/home/knapp/ros2_foxy/install/ament_flake8:/home/knapp/ros2_foxy/install/ament_copyright:/home/knapp/ros2_foxy/install/ament_lint:/home/knapp/ros2_foxy/install/ament_index_python:/home/knapp/ros2_foxy/install/ament_cpplint:/home/knapp/ros2_foxy/install/ament_cppcheck:/home/knapp/ros2_foxy/install/ament_clang_tidy:/home/knapp/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/knapp/git/order_optimizer/build/order_optimizer -- -j1 -l1
+[1.165s] [35m[1mScanning dependencies of target OrderOptimizer[0m
+[1.408s] [ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[10.450s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kint OrderOptimizer::printSolution(int*, int, order, double*)[m[K’:
+[10.451s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:78:21:[m[K [01;31m[Kerror: [m[K‘[01m[KV[m[K’ was not declared in this scope
+[10.451s]    78 |         std::cerr <<[01;31m[KV[m[K-1<<".  Starting with given destinatation x: "<<order_.products.at(0).cx<", y: "<<order_.products.at(0).cy<<std::endl;
+[10.457s]       |                     [01;31m[K^[m[K
+[10.458s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:78:102:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [6][m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[10.458s]    78 |         std::cerr <<V-1<<".  Starting with given destinatation x: "<<order_.products.at(0).cx<[32m[K", y: "[m[K[01;31m[K<<[m[K[34m[Korder_.products.at(0).cy[m[K<<std::endl;
+[10.459s]       |                                                                                               [32m[K~~~~~~~[m[K[01;31m[K^~[m[K[34m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.460s]       |                                                                                               [32m[K|[m[K                              [34m[K|[m[K
+[10.461s]       |                                                                                               [32m[Kconst char [6][m[K                 [34m[Kdouble[m[K
+[10.468s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:81:35:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[int][m[K’ for array subscript
+[10.469s]    81 |                 if (distances[j][i[01;31m[K][m[K==dist[i]){
+[10.469s]       |                                   [01;31m[K^[m[K
+[10.472s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:82:176:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [6][m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[10.472s]    82 | roducts.at(j).part << " for product "<<order_.products.at(j).product<<" at x: "<<order_.products.at(j).cx<[32m[K", y: "[m[K[01;31m[K<<[m[K[34m[Korder_.products.at(j).cy[m[K<<std::endl;
+[10.472s]       |                                                                                                           [32m[K~~~~~~~[m[K[01;31m[K^~[m[K[34m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.473s]       |                                                                                                           [32m[K|[m[K                              [34m[K|[m[K
+[10.473s]       |                                                                                                           [32m[Kconst char [6][m[K                 [34m[Kdouble[m[K
+[10.473s] 
+[10.474s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:88:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[10.474s]    88 |     [01;35m[K}[m[K
+[10.477s]       |     [01;35m[K^[m[K
+[10.479s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:75:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.479s]    75 |     int printSolution(int dist[], [01;35m[Kint n[m[K, struct order order_, double *distances)
+[10.479s]       |                                   [01;35m[K~~~~^[m[K
+[10.479s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::dijkstra(double*, int, int, order)[m[K’:
+[10.480s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:94:13:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdist[m[K’ [[01;35m[K-Wvla[m[K]
+[10.480s]    94 |         int [01;35m[Kdist[m[K[V]; // The output array.  dist[i] will hold the shortest
+[10.480s]       |             [01;35m[K^~~~[m[K
+[10.486s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:97:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KsptSet[m[K’ [[01;35m[K-Wvla[m[K]
+[10.486s]    97 |         bool [01;35m[KsptSet[m[K[V]; // sptSet[i] will be true if vertex i is included in shortest
+[10.486s]       |              [01;35m[K^~~~~~[m[K
+[10.486s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:122:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[int][m[K’ for array subscript
+[10.486s]   122 |                 if (!sptSet[v] && graph[u][v[01;31m[K][m[K && dist[u] != INT_MAX
+[10.487s]       |                                             [01;31m[K^[m[K
+[10.487s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:123:44:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[int][m[K’ for array subscript
+[10.487s]   123 |                     && dist[u] + graph[u][v[01;31m[K][m[K < dist[v])
+[10.497s]       |                                            [01;31m[K^[m[K
+[10.497s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:124:51:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[int][m[K’ for array subscript
+[10.498s]   124 |                     dist[v] = dist[u] + graph[u][v[01;31m[K][m[K;
+[10.498s]       |                                                   [01;31m[K^[m[K
+[10.498s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:128:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOrderOptimizer::printSolution(int [V], int&, order&)[m[K’
+[10.498s]   128 |         printSolution(dist, V, order_[01;31m[K)[m[K;
+[10.498s]       |                                      [01;31m[K^[m[K
+[10.498s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:75:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint OrderOptimizer::printSolution(int*, int, order, double*)[m[K’
+[10.498s]    75 |     int [01;36m[KprintSolution[m[K(int dist[], int n, struct order order_, double *distances)
+[10.498s]       |         [01;36m[K^~~~~~~~~~~~~[m[K
+[10.503s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:75:9:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[10.505s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::fill_product_part(int, std::string, std::string, double, double, std::vector<product_part>&)[m[K’:
+[10.517s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:133:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kpr[m[K’ was not declared in this scope; did you mean ‘[01m[Kpart[m[K’?
+[10.517s]   133 |         product_part_.id = [01;31m[Kpr[m[K.id;
+[10.517s]       |                            [01;31m[K^~[m[K
+[10.517s]       |                            [32m[Kpart[m[K
+[10.518s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:135:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+[10.518s]   135 |         product_part_.part= [01;31m[Kp[m[K.part;
+[10.519s]       |                             [01;31m[K^[m[K
+[10.525s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.525s]   131 |     void fill_product_part([01;35m[Kint id[m[K, std::string product, std::string part, double cx, double cy, vector < struct product_part> &products_){
+[10.525s]       |                            [01;35m[K~~~~^~[m[K
+[10.525s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kproduct[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.526s]   131 |     void fill_product_part(int id, [01;35m[Kstd::string product[m[K, std::string part, double cx, double cy, vector < struct product_part> &products_){
+[10.526s]       |                                    [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[10.526s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpart[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.526s]   131 |     void fill_product_part(int id, std::string product, [01;35m[Kstd::string part[m[K, double cx, double cy, vector < struct product_part> &products_){
+[10.526s]       |                                                         [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[10.526s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.526s]   131 |     void fill_product_part(int id, std::string product, std::string part, [01;35m[Kdouble cx[m[K, double cy, vector < struct product_part> &products_){
+[10.527s]       |                                                                           [01;35m[K~~~~~~~^~[m[K
+[10.527s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.527s]   131 |     void fill_product_part(int id, std::string product, std::string part, double cx, [01;35m[Kdouble cy[m[K, vector < struct product_part> &products_){
+[10.527s]       |                                                                                      [01;35m[K~~~~~~~^~[m[K
+[10.531s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::read_orders(std::string, int, std::vector<order>&)[m[K’:
+[10.532s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:160:76:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kdouble[m[K’
+[10.532s]   160 |                 fill_product_part("Order Start", "Whole package", "Start", [01;31m[Kx_position[m[K, y_position, products_);
+[10.533s]       |                                                                            [01;31m[K^~~~~~~~~~[m[K
+[10.533s]       |                                                                            [01;31m[K|[m[K
+[10.539s]       |                                                                            [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[10.539s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:82:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid OrderOptimizer::fill_product_part(int, std::string, std::string, double, double, std::vector<product_part>&)[m[K’
+[10.539s]   131 |     void fill_product_part(int id, std::string product, std::string part, [01;36m[Kdouble cx[m[K, double cy, vector < struct product_part> &products_){
+[10.539s]       |                                                                           [01;36m[K~~~~~~~^~[m[K
+[10.544s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:172:43:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.544s]   172 |                         fill_product_part([01;31m[K"Order Destination"[m[K, "Whole package", "Goal", order_.cx, order_.cy, products_);
+[10.544s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.544s]       |                                           [01;31m[K|[m[K
+[10.545s]       |                                           [01;31m[Kconst char*[m[K
+[10.545s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid OrderOptimizer::fill_product_part(int, std::string, std::string, double, double, std::vector<product_part>&)[m[K’
+[10.545s]   131 |     void fill_product_part([01;36m[Kint id[m[K, std::string product, std::string part, double cx, double cy, vector < struct product_part> &products_){
+[10.551s]       |                            [01;36m[K~~~~^~[m[K
+[10.567s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::create_distance_matrix(double*, order)[m[K’:
+[10.568s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpow(double&)[m[K’
+[10.568s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;31m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.568s]       |                                                                                                            [01;31m[K^[m[K
+[10.569s] In file included from [01m[K/usr/include/features.h:461[m[K,
+[10.569s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:39[m[K,
+[10.570s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:524[m[K,
+[10.571s]                  from [01m[K/usr/include/c++/9/bits/stl_algobase.h:59[m[K,
+[10.571s]                  from [01m[K/usr/include/c++/9/memory:62[m[K,
+[10.574s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:1[m[K:
+[10.574s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble pow(double, double)[m[K’
+[10.574s]   140 | [01;36m[K__MATHCALL_VEC[m[K (pow,, (_Mdouble_ __x, _Mdouble_ __y));
+[10.574s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.575s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.575s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.576s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.577s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.577s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Constant, std::_ValArray, _Tp, _Tp>, _Tp> std::pow(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)[m[K’
+[10.577s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.577s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.577s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.577s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.577s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.578s]       |                                                                                                            [01;36m[K^[m[K
+[10.582s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.593s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.594s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.594s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_Constant, _Tp, _Tp>, _Tp> std::pow(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)[m[K’
+[10.595s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.601s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.601s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.601s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.601s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.602s]       |                                                                                                            [01;36m[K^[m[K
+[10.602s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.602s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.602s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.602s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_ValArray, _Tp, _Tp>, _Tp> std::pow(const std::valarray<_Tp>&, const std::valarray<_Tp>&)[m[K’
+[10.602s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.602s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.602s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.616s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.616s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.616s]       |                                                                                                            [01;36m[K^[m[K
+[10.616s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.616s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.616s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.616s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename _Dom::value_type> std::pow(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[10.617s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.617s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.617s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.617s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.617s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.617s]       |                                                                                                            [01;36m[K^[m[K
+[10.617s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.617s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.618s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.618s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename _Dom::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)[m[K’
+[10.618s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.618s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.618s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.618s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.638s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.645s]       |                                                                                                            [01;36m[K^[m[K
+[10.646s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.646s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.658s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.658s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename _Dom::value_type> std::pow(const std::valarray<typename _Dom::valarray>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[10.659s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.659s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.659s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.659s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.659s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.660s]       |                                                                                                            [01;36m[K^[m[K
+[10.660s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.660s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.660s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.660s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename _Dom::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)[m[K’
+[10.660s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.660s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.661s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.661s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.662s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.662s]       |                                                                                                            [01;36m[K^[m[K
+[10.662s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.662s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.662s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.663s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename _Dom1::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)[m[K’
+[10.677s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.678s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.678s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.690s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.690s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.690s]       |                                                                                                            [01;36m[K^[m[K
+[10.690s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.690s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.690s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.691s] [01m[K/usr/include/c++/9/complex:1893:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const std::complex<_Tp>&, const std::complex<_Up>&)[m[K’
+[10.691s]  1893 |     [01;36m[Kpow[m[K(const std::complex<_Tp>& __x, const std::complex<_Up>& __y)
+[10.691s]       |     [01;36m[K^~~[m[K
+[10.692s] [01m[K/usr/include/c++/9/complex:1893:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.692s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.692s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.692s]       |                                                                                                            [01;36m[K^[m[K
+[10.692s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.693s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.693s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.693s] [01m[K/usr/include/c++/9/complex:1885:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const _Tp&, const std::complex<_Up>&)[m[K’
+[10.693s]  1885 |     [01;36m[Kpow[m[K(const _Tp& __x, const std::complex<_Up>& __y)
+[10.693s]       |     [01;36m[K^~~[m[K
+[10.693s] [01m[K/usr/include/c++/9/complex:1885:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.694s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.694s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.694s]       |                                                                                                            [01;36m[K^[m[K
+[10.711s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.712s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.712s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.712s] [01m[K/usr/include/c++/9/complex:1877:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const std::complex<_Tp>&, const _Up&)[m[K’
+[10.712s]  1877 |     [01;36m[Kpow[m[K(const std::complex<_Tp>& __x, const _Up& __y)
+[10.712s]       |     [01;36m[K^~~[m[K
+[10.713s] [01m[K/usr/include/c++/9/complex:1877:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.713s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.713s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.713s]       |                                                                                                            [01;36m[K^[m[K
+[10.713s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.713s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.713s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.714s] [01m[K/usr/include/c++/9/complex:1070:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const _Tp&, const std::complex<_Tp>&)[m[K’
+[10.714s]  1070 |     [01;36m[Kpow[m[K(const _Tp& __x, const complex<_Tp>& __y)
+[10.714s]       |     [01;36m[K^~~[m[K
+[10.714s] [01m[K/usr/include/c++/9/complex:1070:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.714s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.714s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.715s]       |                                                                                                            [01;36m[K^[m[K
+[10.715s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.715s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.729s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.730s] [01m[K/usr/include/c++/9/complex:1059:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+[10.730s]  1059 |     [01;36m[Kpow[m[K(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[10.730s]       |     [01;36m[K^~~[m[K
+[10.730s] [01m[K/usr/include/c++/9/complex:1059:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.730s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.730s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.730s]       |                                                                                                            [01;36m[K^[m[K
+[10.731s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.731s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.731s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.731s] [01m[K/usr/include/c++/9/complex:1025:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, const _Tp&)[m[K’
+[10.731s]  1025 |     [01;36m[Kpow[m[K(const complex<_Tp>& __x, const _Tp& __y)
+[10.731s]       |     [01;36m[K^~~[m[K
+[10.733s] [01m[K/usr/include/c++/9/complex:1025:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.733s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.734s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.734s]       |                                                                                                            [01;36m[K^[m[K
+[10.734s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.735s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.735s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.739s] [01m[K/usr/include/c++/9/complex:1016:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, int)[m[K’
+[10.749s]  1016 |     [01;36m[Kpow[m[K(const complex<_Tp>& __z, int __n)
+[10.749s]       |     [01;36m[K^~~[m[K
+[10.749s] [01m[K/usr/include/c++/9/complex:1016:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.749s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.749s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.750s]       |                                                                                                            [01;36m[K^[m[K
+[10.750s] In file included from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[10.751s]                  from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[10.751s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[10.751s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/subscription.hpp:50[m[K,
+[10.751s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:25[m[K,
+[10.752s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[10.752s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.752s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+[10.752s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[10.752s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.753s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[10.753s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+[10.753s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[10.753s] [01m[K/usr/include/c++/9/cmath:415:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up)[m[K’
+[10.753s]   415 |     [01;36m[Kpow[m[K(_Tp __x, _Up __y)
+[10.753s]       |     [01;36m[K^~~[m[K
+[10.753s] [01m[K/usr/include/c++/9/cmath:415:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.754s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:108:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.754s]   190 |                 double euclidian_distance = sqrt(pow((order_.products.at(i).cx-pow(order_.products.at(j).cx[01;36m[K)[m[K), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy)), 2));
+[10.754s]       |                                                                                                            [01;36m[K^[m[K
+[10.754s] In file included from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[10.754s]                  from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[10.754s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[10.754s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/subscription.hpp:50[m[K,
+[10.754s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:25[m[K,
+[10.766s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[10.767s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.767s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+[10.767s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[10.767s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.767s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[10.767s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+[10.768s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[10.768s] [01m[K/usr/include/c++/9/cmath:392:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr long double std::pow(long double, long double)[m[K’
+[10.768s]   392 |   [01;36m[Kpow[m[K(long double __x, long double __y)
+[10.768s]       |   [01;36m[K^~~[m[K
+[10.768s] [01m[K/usr/include/c++/9/cmath:392:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.768s] [01m[K/usr/include/c++/9/cmath:388:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr float std::pow(float, float)[m[K’
+[10.768s]   388 |   [01;36m[Kpow[m[K(float __x, float __y)
+[10.768s]       |   [01;36m[K^~~[m[K
+[10.769s] [01m[K/usr/include/c++/9/cmath:388:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.769s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpow(double&)[m[K’
+[10.769s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;31m[K)[m[K), 2));
+[10.769s]       |                                                                                                                            [01;31m[K^[m[K
+[10.769s] 
+[10.769s] In file included from [01m[K/usr/include/features.h:461[m[K,
+[10.769s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:39[m[K,
+[10.770s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:524[m[K,
+[10.770s]                  from [01m[K/usr/include/c++/9/bits/stl_algobase.h:59[m[K,
+[10.770s]                  from [01m[K/usr/include/c++/9/memory:62[m[K,
+[10.770s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:1[m[K:
+[10.770s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble pow(double, double)[m[K’
+[10.770s]   140 | [01;36m[K__MATHCALL_VEC[m[K (pow,, (_Mdouble_ __x, _Mdouble_ __y));
+[10.770s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.770s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.771s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.771s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.771s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.771s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Constant, std::_ValArray, _Tp, _Tp>, _Tp> std::pow(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)[m[K’
+[10.771s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.771s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.771s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.771s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.772s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.772s]       |                                                                                                                            [01;36m[K^[m[K
+[10.772s] 
+[10.793s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.793s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.794s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.794s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_Constant, _Tp, _Tp>, _Tp> std::pow(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)[m[K’
+[10.819s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.819s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.819s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.819s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.819s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.820s]       |                                                                                                                            [01;36m[K^[m[K
+[10.820s] 
+[10.820s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.820s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.820s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.820s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_ValArray, _Tp, _Tp>, _Tp> std::pow(const std::valarray<_Tp>&, const std::valarray<_Tp>&)[m[K’
+[10.820s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.820s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.821s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.821s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.821s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.821s]       |                                                                                                                            [01;36m[K^[m[K
+[10.821s] 
+[10.821s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.822s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.822s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.822s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename _Dom::value_type> std::pow(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[10.822s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.822s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.822s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.822s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.831s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.831s]       |                                                                                                                            [01;36m[K^[m[K
+[10.831s] 
+[10.831s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.831s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.832s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.832s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename _Dom::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)[m[K’
+[10.832s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.832s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.832s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.833s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.833s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.847s]       |                                                                                                                            [01;36m[K^[m[K
+[10.848s] 
+[10.849s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.849s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.849s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.849s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename _Dom::value_type> std::pow(const std::valarray<typename _Dom::valarray>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[10.850s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.851s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.851s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.851s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.851s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.851s]       |                                                                                                                            [01;36m[K^[m[K
+[10.852s] 
+[10.852s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.852s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.852s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.852s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename _Dom::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)[m[K’
+[10.852s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.853s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.853s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.853s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.853s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.853s]       |                                                                                                                            [01;36m[K^[m[K
+[10.853s] 
+[10.853s] In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+[10.854s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+[10.854s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.854s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::_Pow, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename _Dom1::value_type> std::pow(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)[m[K’
+[10.854s]   549 | [01;36m[K_DEFINE_EXPR_BINARY_FUNCTION[m[K(pow, _Pow)
+[10.854s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.854s] [01m[K/usr/include/c++/9/bits/valarray_after.h:549:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.854s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.875s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.875s]       |                                                                                                                            [01;36m[K^[m[K
+[10.875s] 
+[10.875s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.876s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.876s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.876s] [01m[K/usr/include/c++/9/complex:1893:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const std::complex<_Tp>&, const std::complex<_Up>&)[m[K’
+[10.876s]  1893 |     [01;36m[Kpow[m[K(const std::complex<_Tp>& __x, const std::complex<_Up>& __y)
+[10.876s]       |     [01;36m[K^~~[m[K
+[10.876s] [01m[K/usr/include/c++/9/complex:1893:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.876s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.877s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.877s]       |                                                                                                                            [01;36m[K^[m[K
+[10.877s] 
+[10.877s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.877s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.877s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.878s] [01m[K/usr/include/c++/9/complex:1885:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const _Tp&, const std::complex<_Up>&)[m[K’
+[10.878s]  1885 |     [01;36m[Kpow[m[K(const _Tp& __x, const std::complex<_Up>& __y)
+[10.878s]       |     [01;36m[K^~~[m[K
+[10.878s] [01m[K/usr/include/c++/9/complex:1885:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.878s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.878s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.896s]       |                                                                                                                            [01;36m[K^[m[K
+[10.897s] 
+[10.898s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.899s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.914s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.914s] [01m[K/usr/include/c++/9/complex:1877:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const std::complex<_Tp>&, const _Up&)[m[K’
+[10.914s]  1877 |     [01;36m[Kpow[m[K(const std::complex<_Tp>& __x, const _Up& __y)
+[10.914s]       |     [01;36m[K^~~[m[K
+[10.914s] [01m[K/usr/include/c++/9/complex:1877:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.915s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.915s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.915s]       |                                                                                                                            [01;36m[K^[m[K
+[10.915s] 
+[10.915s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.915s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.916s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.916s] [01m[K/usr/include/c++/9/complex:1070:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const _Tp&, const std::complex<_Tp>&)[m[K’
+[10.916s]  1070 |     [01;36m[Kpow[m[K(const _Tp& __x, const complex<_Tp>& __y)
+[10.916s]       |     [01;36m[K^~~[m[K
+[10.916s] [01m[K/usr/include/c++/9/complex:1070:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.916s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.916s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.917s]       |                                                                                                                            [01;36m[K^[m[K
+[10.917s] 
+[10.917s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.917s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.917s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.917s] [01m[K/usr/include/c++/9/complex:1059:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+[10.917s]  1059 |     [01;36m[Kpow[m[K(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[10.918s]       |     [01;36m[K^~~[m[K
+[10.918s] [01m[K/usr/include/c++/9/complex:1059:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.918s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.918s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.918s]       |                                                                                                                            [01;36m[K^[m[K
+[10.918s] 
+[10.918s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.931s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.931s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.931s] [01m[K/usr/include/c++/9/complex:1025:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, const _Tp&)[m[K’
+[10.931s]  1025 |     [01;36m[Kpow[m[K(const complex<_Tp>& __x, const _Tp& __y)
+[10.932s]       |     [01;36m[K^~~[m[K
+[10.932s] [01m[K/usr/include/c++/9/complex:1025:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.932s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.932s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.932s]       |                                                                                                                            [01;36m[K^[m[K
+[10.932s] 
+[10.933s] In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+[10.939s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+[10.939s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:7[m[K:
+[10.939s] [01m[K/usr/include/c++/9/complex:1016:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, int)[m[K’
+[10.939s]  1016 |     [01;36m[Kpow[m[K(const complex<_Tp>& __z, int __n)
+[10.939s]       |     [01;36m[K^~~[m[K
+[10.940s] [01m[K/usr/include/c++/9/complex:1016:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.940s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[10.940s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.940s]       |                                                                                                                            [01;36m[K^[m[K
+[10.940s] 
+[10.940s] In file included from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[10.940s]                  from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[10.941s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[10.941s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/subscription.hpp:50[m[K,
+[10.941s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:25[m[K,
+[10.941s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[10.941s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.942s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+[10.942s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[10.942s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.942s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[10.942s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+[10.942s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[10.942s] [01m[K/usr/include/c++/9/cmath:415:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up)[m[K’
+[10.943s]   415 |     [01;36m[Kpow[m[K(_Tp __x, _Up __y)
+[10.957s]       |     [01;36m[K^~~[m[K
+[10.958s] [01m[K/usr/include/c++/9/cmath:415:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.965s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:190:174:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.965s]   190 | ow((order_.products.at(i).cx-pow(order_.products.at(j).cx)), 2)+ pow((order_.products.at(i).cy-pow(order_.products.at(j).cy[01;36m[K)[m[K), 2));
+[10.966s]       |                                                                                                                            [01;36m[K^[m[K
+[10.966s] 
+[10.966s] In file included from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[10.966s]                  from [01m[K/home/knapp/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[10.966s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[10.966s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/subscription.hpp:50[m[K,
+[10.966s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:25[m[K,
+[10.973s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[10.974s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.974s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+[10.974s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[10.974s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.974s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[10.974s]                  from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+[10.974s]                  from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:3[m[K:
+[10.975s] [01m[K/usr/include/c++/9/cmath:392:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr long double std::pow(long double, long double)[m[K’
+[10.975s]   392 |   [01;36m[Kpow[m[K(long double __x, long double __y)
+[10.975s]       |   [01;36m[K^~~[m[K
+[10.975s] [01m[K/usr/include/c++/9/cmath:392:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.975s] [01m[K/usr/include/c++/9/cmath:388:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr float std::pow(float, float)[m[K’
+[10.975s]   388 |   [01;36m[Kpow[m[K(float __x, float __y)
+[10.976s]       |   [01;36m[K^~~[m[K
+[10.976s] [01m[K/usr/include/c++/9/cmath:388:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[10.976s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:191:31:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[unsigned int][m[K’ for array subscript
+[10.976s]   191 |                 distances[i][j[01;31m[K][m[K = euclidian_distance;
+[10.976s]       |                               [01;31m[K^[m[K
+[10.976s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::next_order_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[10.976s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:221:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdistances[m[K’ [[01;35m[K-Wvla[m[K]
+[10.976s]   221 |         double [01;35m[Kdistances[m[K[matrix_size][matrix_size];
+[10.977s]       |                [01;35m[K^~~~~~~~~[m[K
+[10.977s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:221:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdistances[m[K’ [[01;35m[K-Wvla[m[K]
+[10.995s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:222:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble [matrix_size][matrix_size][m[K’ to ‘[01m[Kdouble*[m[K’
+[10.995s]   222 |         create_distance_matrix([01;31m[Kdistances[m[K, orders.at(0));
+[10.995s]       |                                [01;31m[K^~~~~~~~~[m[K
+[10.996s]       |                                [01;31m[K|[m[K
+[10.996s]       |                                [01;31m[Kdouble [matrix_size][matrix_size][m[K
+[10.996s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:187:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid OrderOptimizer::create_distance_matrix(double*, order)[m[K’
+[10.996s]   187 |    void create_distance_matrix([01;36m[Kdouble *distances[m[K, struct order order_) {
+[10.996s]       |                                [01;36m[K~~~~~~~~^~~~~~~~~[m[K
+[10.996s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:226:18:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble [matrix_size][matrix_size][m[K’ to ‘[01m[Kdouble*[m[K’
+[10.996s]   226 |         dijkstra([01;31m[Kdistances[m[K, 0, matrix_size, orders.at(0));
+[10.997s]       |                  [01;31m[K^~~~~~~~~[m[K
+[10.997s]       |                  [01;31m[K|[m[K
+[10.997s]       |                  [01;31m[Kdouble [matrix_size][matrix_size][m[K
+[10.997s] [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:92:27:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid OrderOptimizer::dijkstra(double*, int, int, order)[m[K’
+[10.997s]    92 |     void dijkstra([01;36m[Kdouble *graph[m[K, int src, int V, struct order order_)
+[10.997s]       |                   [01;36m[K~~~~~~~~^~~~~[m[K
+[17.654s] make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+[17.655s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+[17.656s] make: *** [Makefile:141: all] Error 2
+[17.672s] Invoked command in '/home/knapp/git/order_optimizer/build/order_optimizer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knapp/ros2_foxy/install/ros2bag:/home/knapp/ros2_foxy/install/tracetools_launch:/home/knapp/ros2_foxy/install/topic_monitor:/home/knapp/ros2_foxy/install/examples_tf2_py:/home/knapp/ros2_foxy/install/sros2:/home/knapp/ros2_foxy/install/rqt_topic:/home/knapp/ros2_foxy/install/rqt_top:/home/knapp/ros2_foxy/install/rqt_srv:/home/knapp/ros2_foxy/install/rqt_shell:/home/knapp/ros2_foxy/install/rqt_service_caller:/home/knapp/ros2_foxy/install/rqt_reconfigure:/home/knapp/ros2_foxy/install/rqt_py_console:/home/knapp/ros2_foxy/install/rqt_publisher:/home/knapp/ros2_foxy/install/rqt_plot:/home/knapp/ros2_foxy/install/rqt_action:/home/knapp/ros2_foxy/install/rqt_msg:/home/knapp/ros2_foxy/install/rqt:/home/knapp/ros2_foxy/install/rqt_graph:/home/knapp/ros2_foxy/install/rqt_gui_py:/home/knapp/ros2_foxy/install/rqt_gui:/home/knapp/ros2_foxy/install/ros2trace:/home/knapp/ros2_foxy/install/ros2topic:/home/knapp/ros2_foxy/install/ros2test:/home/knapp/ros2_foxy/install/ros2component:/home/knapp/ros2_foxy/install/ros2param:/home/knapp/ros2_foxy/install/ros2lifecycle:/home/knapp/ros2_foxy/install/ros2service:/home/knapp/ros2_foxy/install/ros2run:/home/knapp/ros2_foxy/install/ros2launch:/home/knapp/ros2_foxy/install/ros2pkg:/home/knapp/ros2_foxy/install/ros2node:/home/knapp/ros2_foxy/install/ros2multicast:/home/knapp/ros2_foxy/install/ros2interface:/home/knapp/ros2_foxy/install/ros2doctor:/home/knapp/ros2_foxy/install/ros2action:/home/knapp/ros2_foxy/install/ros2cli:/home/knapp/ros2_foxy/install/quality_of_service_demo_py:/home/knapp/ros2_foxy/install/launch_testing_ros:/home/knapp/ros2_foxy/install/launch_ros:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_service:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_client:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/knapp/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/knapp/ros2_foxy/install/examples_rclpy_executors:/home/knapp/ros2_foxy/install/demo_nodes_py:/home/knapp/ros2_foxy/install/action_tutorials_py:/home/knapp/ros2_foxy/install/ament_uncrustify:/home/knapp/ros2_foxy/install/tracetools_trace:/home/knapp/ros2_foxy/install/tracetools_read:/home/knapp/ros2_foxy/install/test_launch_ros:/home/knapp/ros2_foxy/install/sensor_msgs_py:/home/knapp/ros2_foxy/install/rpyutils:/home/knapp/ros2_foxy/install/rosidl_runtime_py:/home/knapp/ros2_foxy/install/launch_yaml:/home/knapp/ros2_foxy/install/launch_xml:/home/knapp/ros2_foxy/install/launch_testing:/home/knapp/ros2_foxy/install/launch:/home/knapp/ros2_foxy/install/osrf_pycommon:/home/knapp/ros2_foxy/install/domain_coordinator:/home/knapp/ros2_foxy/install/ament_xmllint:/home/knapp/ros2_foxy/install/ament_pyflakes:/home/knapp/ros2_foxy/install/ament_pycodestyle:/home/knapp/ros2_foxy/install/ament_pep257:/home/knapp/ros2_foxy/install/ament_pclint:/home/knapp/ros2_foxy/install/ament_package:/home/knapp/ros2_foxy/install/ament_mypy:/home/knapp/ros2_foxy/install/ament_lint_cmake:/home/knapp/ros2_foxy/install/ament_flake8:/home/knapp/ros2_foxy/install/ament_copyright:/home/knapp/ros2_foxy/install/ament_lint:/home/knapp/ros2_foxy/install/ament_index_python:/home/knapp/ros2_foxy/install/ament_cpplint:/home/knapp/ros2_foxy/install/ament_cppcheck:/home/knapp/ros2_foxy/install/ament_clang_tidy:/home/knapp/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/knapp/git/order_optimizer/build/order_optimizer -- -j1 -l1

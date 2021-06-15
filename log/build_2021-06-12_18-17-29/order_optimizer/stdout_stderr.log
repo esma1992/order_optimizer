@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target OrderOptimizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In function ‘[01m[Kbool fileExists(const char*)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:34:32:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ifstream test[m[K’ has initializer but incomplete type
+   34 |     std::ifstream test(fileName[01;31m[K)[m[K;
+      |                                [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:56:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+   56 |                 if [34m[K([m[KfileExists(my_path.c_str())
+      |                    [34m[K~[m[K                           [01;31m[K^[m[K
+      |                                                [32m[K)[m[K
+   57 |                 [32m[K{[m[K
+      |                 [32m[K~[m[K                               
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:64:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   64 |             [01;31m[K}[m[K
+      |             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

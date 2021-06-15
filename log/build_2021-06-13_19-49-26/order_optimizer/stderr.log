@@ -1,0 +1,14 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::next_order_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:66:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’ has no member named ‘[01m[Kas[m[K’; did you mean ‘[01m[Kat[m[K’?
+   66 |         int order_id = s.substr(0, s.find(delimiter)).[01;31m[Kas[m[K<int>();
+      |                                                       [01;31m[K^~[m[K
+      |                                                       [32m[Kat[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:66:58:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   66 |         int order_id = s.substr(0, s.find(delimiter)).as<[01;31m[Kint[m[K>();
+      |                                                          [01;31m[K^~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:71:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kread_orders[m[K’ was not declared in this scope
+   71 |         [01;31m[Kread_orders[m[K(orders_path+ "/orders_20201201.yaml", order_id, orders);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

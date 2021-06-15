@@ -1,0 +1,5 @@
+-- Found ament_cmake: 0.9.8 (/home/knapp/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring incomplete, errors occurred!
+See also "/home/knapp/git/order_optimizer/build/order_optimizer/CMakeFiles/CMakeOutput.log".
+See also "/home/knapp/git/order_optimizer/build/order_optimizer/CMakeFiles/CMakeError.log".

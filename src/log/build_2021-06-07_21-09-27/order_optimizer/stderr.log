@@ -1,0 +1,8 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In member function ‘[01m[Kvoid SendOrder::current_position_callback()[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:38:115:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+   38 |     message_1.data = std::to_string(current_pos.pose.position.x) +"|"+ std::to_string(current_pos.pose.position.y)
+      |                                                                                                                   [01;31m[K^[m[K
+      |                                                                                                                   [32m[K;[m[K
+make[2]: *** [CMakeFiles/SendOrder.dir/build.make:63: CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/SendOrder.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

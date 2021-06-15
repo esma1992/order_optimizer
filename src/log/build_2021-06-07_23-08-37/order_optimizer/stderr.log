@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:30 (target_link_libraries):
+  Cannot specify link libraries for target "yaml_cpp" which is not built by
+  this project.
+
+
+make: *** [Makefile:310: cmake_check_build_system] Error 1

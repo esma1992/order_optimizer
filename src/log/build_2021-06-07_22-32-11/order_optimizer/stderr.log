@@ -1,0 +1,51 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:11:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kproducts[m[K’ [[01;35m[K-Wpedantic[m[K]
+   11 |     int [01;35m[Kproducts[m[K[];
+      |         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:23:10:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kparts[m[K’ [[01;35m[K-Wpedantic[m[K]
+   23 |     part [01;35m[Kparts[m[K[];
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:55:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+   55 |     [01;31m[K/[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:59:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kif[m[K’
+   59 |     [01;31m[Kif[m[K (argc != 3) {
+      |     [01;31m[K^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:72:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kfs[m[K’ does not name a type; did you mean ‘[01m[Kffs[m[K’?
+   72 |                 const [01;31m[Kfs[m[K::path path(config_path); // Constructing the path from a string is possible.
+      |                       [01;31m[K^~[m[K
+      |                       [32m[Kffs[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:74:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kfs[m[K’ has not been declared
+   74 |                 if ([01;31m[Kfs[m[K::is_directory(path, ec))
+      |                     [01;31m[K^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:74:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath[m[K’ was not declared in this scope
+   74 |                 if (fs::is_directory([01;31m[Kpath[m[K, ec))
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:53:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   53 | int main([01;35m[Kint argc[m[K, char ** argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K At global scope:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:85:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+   85 |     [01;31m[Kif[m[K (parameters!=1){
+      |     [01;31m[K^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:93:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfig_path[m[K’ was not declared in this scope
+   93 |     YAML::Node config = YAML::LoadFile([01;31m[Kconfig_path[m[K+"configurations/products.yaml");
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:94:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   94 |   rclcpp::init[01;31m[K([m[Kargc, argv);
+      |               [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:95:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   95 |   rclcpp::spin[01;31m[K([m[Kstd::make_shared<OrderOptimizer>());
+      |               [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:96:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+   96 |   rclcpp::shutdown()[01;31m[K;[m[K
+      |                     [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:97:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+   97 |   [01;31m[Kreturn[m[K 0;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:98:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   98 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

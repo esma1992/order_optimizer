@@ -1,0 +1,88 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:75:70:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdistances[m[K’ as multidimensional array must have bounds for all dimensions except the first
+   75 |     int printSolution(int dist[], int n, struct order order_, double [01;31m[Kdistances[m[K[][])
+      |                                                                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:92:27:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kgraph[m[K’ as array of references
+   92 |     void dijkstra(double &[01;31m[Kgraph[m[K[][], int src, int V, struct order order_)
+      |                           [01;31m[K^~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:92:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+   92 |     void dijkstra[34m[K([m[Kdouble &graph[][][01;31m[K,[m[K int src, int V, struct order order_)
+      |                  [34m[K~[m[K                 [01;31m[K^[m[K
+      |                                    [32m[K)[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:92:38:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kint[m[K’
+   92 |     void dijkstra(double &graph[][], [01;31m[Kint[m[K src, int V, struct order order_)
+      |                                      [01;31m[K^~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:187:40:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdistances[m[K’ as array of references
+  187 |    void create_distance_matrix(double &[01;31m[Kdistances[m[K[][], struct order order_) {
+      |                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:187:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+  187 |    void create_distance_matrix[34m[K([m[Kdouble &distances[][][01;31m[K,[m[K struct order order_) {
+      |                               [34m[K~[m[K                     [01;31m[K^[m[K
+      |                                                     [32m[K)[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:187:55:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kstruct[m[K’
+  187 |    void create_distance_matrix(double &distances[][], [01;31m[Kstruct[m[K order order_) {
+      |                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kint OrderOptimizer::printSolution(...)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:77:43:[m[K [01;31m[Kerror: [m[K‘[01m[Korder_[m[K’ was not declared in this scope; did you mean ‘[01m[Korder[m[K’?
+   77 |         std::cerr <<"Working on order "<< [01;31m[Korder_[m[K.order << "("<<order_<<")"<<std::endl;
+      |                                           [01;31m[K^~~~~~[m[K
+      |                                           [32m[Korder[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:78:21:[m[K [01;31m[Kerror: [m[K‘[01m[KV[m[K’ was not declared in this scope
+   78 |         std::cerr <<[01;31m[KV[m[K-1<<".  Starting with given destinatation x: "<<order_.products.at(0).cx<", y: "<<order_.products.at(0).cy<<std::endl;
+      |                     [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:81:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistances[m[K’ was not declared in this scope
+   81 |                 if ([01;31m[Kdistances[m[K[j][i]==dist[i]){
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:81:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist[m[K’ was not declared in this scope
+   81 |                 if (distances[j][i]==[01;31m[Kdist[m[K[i]){
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:88:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   88 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::fill_product_part(int, std::string, std::string, double, double, std::vector<product_part>&)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:133:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kpr[m[K’ was not declared in this scope; did you mean ‘[01m[Kpart[m[K’?
+  133 |         product_part_.id = [01;31m[Kpr[m[K.id;
+      |                            [01;31m[K^~[m[K
+      |                            [32m[Kpart[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:135:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+  135 |         product_part_.part= [01;31m[Kp[m[K.part;
+      |                             [01;31m[K^[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  131 |     void fill_product_part([01;35m[Kint id[m[K, std::string product, std::string part, double cx, double cy, vector < struct product_part> &products_){
+      |                            [01;35m[K~~~~^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kproduct[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  131 |     void fill_product_part(int id, [01;35m[Kstd::string product[m[K, std::string part, double cx, double cy, vector < struct product_part> &products_){
+      |                                    [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpart[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  131 |     void fill_product_part(int id, std::string product, [01;35m[Kstd::string part[m[K, double cx, double cy, vector < struct product_part> &products_){
+      |                                                         [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  131 |     void fill_product_part(int id, std::string product, std::string part, [01;35m[Kdouble cx[m[K, double cy, vector < struct product_part> &products_){
+      |                                                                           [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  131 |     void fill_product_part(int id, std::string product, std::string part, double cx, [01;35m[Kdouble cy[m[K, vector < struct product_part> &products_){
+      |                                                                                      [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::read_orders(std::string, int, std::vector<order>&)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:160:76:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kdouble[m[K’
+  160 |                 fill_product_part("Order Start", "Whole package", "Start", [01;31m[Kx_position[m[K, y_position, products_);
+      |                                                                            [01;31m[K^~~~~~~~~~[m[K
+      |                                                                            [01;31m[K|[m[K
+      |                                                                            [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:82:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid OrderOptimizer::fill_product_part(int, std::string, std::string, double, double, std::vector<product_part>&)[m[K’
+  131 |     void fill_product_part(int id, std::string product, std::string part, [01;36m[Kdouble cx[m[K, double cy, vector < struct product_part> &products_){
+      |                                                                           [01;36m[K~~~~~~~^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:172:43:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+  172 |                         fill_product_part([01;31m[K"Order Destination"[m[K, "Whole package", "Goal", order_.cx, order_.cy, products_);
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [01;31m[K|[m[K
+      |                                           [01;31m[Kconst char*[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:131:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid OrderOptimizer::fill_product_part(int, std::string, std::string, double, double, std::vector<product_part>&)[m[K’
+  131 |     void fill_product_part([01;36m[Kint id[m[K, std::string product, std::string part, double cx, double cy, vector < struct product_part> &products_){
+      |                            [01;36m[K~~~~^~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::next_order_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:221:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdistances[m[K’ [[01;35m[K-Wvla[m[K]
+  221 |         double [01;35m[Kdistances[m[K[matrix_size][matrix_size];
+      |                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:221:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdistances[m[K’ [[01;35m[K-Wvla[m[K]
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

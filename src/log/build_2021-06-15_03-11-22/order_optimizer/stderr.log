@@ -1,0 +1,8 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::next_order_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:339:38:[m[K [01;31m[Kerror: [m[K‘[01m[Korder_[m[K’ was not declared in this scope; did you mean ‘[01m[Korder[m[K’?
+  339 |         for (unsigned int i = 0; i < [01;31m[Korder_[m[K.products.size(); i++) {
+      |                                      [01;31m[K^~~~~~[m[K
+      |                                      [32m[Korder[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

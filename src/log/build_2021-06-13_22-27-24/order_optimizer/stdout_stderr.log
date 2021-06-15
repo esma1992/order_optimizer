@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target OrderOptimizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::dijkstra(double**, int, int, order)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:112:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble*[m[K’ to ‘[01m[Kint*[m[K’
+  112 |             int u = minDistance([01;31m[Kdist[m[K, sptSet, V);
+      |                                 [01;31m[K^~~~[m[K
+      |                                 [01;31m[K|[m[K
+      |                                 [01;31m[Kdouble*[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:63:25:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint OrderOptimizer::minDistance(int*, bool*, int)[m[K’
+   63 |     int minDistance([01;36m[Kint dist[][m[K, bool sptSet[], int V)
+      |                     [01;36m[K~~~~^~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:129:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble*[m[K’ to ‘[01m[Kint*[m[K’
+  129 |         printSolution([01;31m[Kdist[m[K, V, order_, graph);
+      |                       [01;31m[K^~~~[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kdouble*[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:76:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid OrderOptimizer::printSolution(int*, int, order, double**)[m[K’
+   76 |     void printSolution([01;36m[Kint *dist[m[K, int V, struct order order_, double **distances)
+      |                        [01;36m[K~~~~~^~~~[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

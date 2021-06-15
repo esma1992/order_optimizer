@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target OrderOptimizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In lambda function:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:240:47:[m[K [01;31m[Kerror: [m[K‘[01m[Korder_filename[m[K’ was not declared in this scope; did you mean ‘[01m[Korder_files[m[K’?
+  240 |             t = std::thread ([=] {read_orders([01;31m[Korder_filename[m[K, order_id);});
+      |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                               [32m[Korder_files[m[K
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:63: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

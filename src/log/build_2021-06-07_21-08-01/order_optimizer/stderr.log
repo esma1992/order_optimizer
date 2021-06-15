@@ -1,0 +1,10 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In member function ‘[01m[Kvoid SendOrder::current_position_callback()[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:38:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose[m[K’
+   38 |     message_1.data = std::to_string(message_1.[01;31m[Kpose[m[K.position.x) +"|"+ std::to_string(message_1.pose.position.y)
+      |                                               [01;31m[K^~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:38:95:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose[m[K’
+   38 |     message_1.data = std::to_string(message_1.pose.position.x) +"|"+ std::to_string(message_1.[01;31m[Kpose[m[K.position.y)
+      |                                                                                               [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/SendOrder.dir/build.make:63: CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/SendOrder.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

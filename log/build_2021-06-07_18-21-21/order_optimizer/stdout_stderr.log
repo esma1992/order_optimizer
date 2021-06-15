@@ -1,0 +1,29 @@
+[ 50%] Built target OrderOptimizer
+[35m[1mScanning dependencies of target SendOrder[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o[0m
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:13:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   13 | geometry_msgs::msg::PoseStamped::ConstPtr [01;35m[Kcurrent_pos[m[K;
+      |                                           [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/knapp/ros2_foxy/install/geometry_msgs/include/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:5[m[K:
+[01m[K/home/knapp/ros2_foxy/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:114:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  114 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In member function ‘[01m[Kvoid SendOrder::current_position_callback()[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:37:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+   37 |     message_1.data = "Current Positions x and y:" + std::to_string(current_pos->[01;31m[Kposition[m[K.x) + " and " + std::to_string(current_pos->position.y);
+      |                                                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:37:133:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+   37 | .data = "Current Positions x and y:" + std::to_string(current_pos->position.x) + " and " + std::to_string(current_pos->[01;31m[Kposition[m[K.y);
+      |                                                                                                                        [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:110:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  110 |     current_pos->[01;31m[Kposition[m[K.x = x;
+      |                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:111:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  111 |     current_pos->[01;31m[Kposition[m[K.y = y;
+      |                  [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/SendOrder.dir/build.make:63: CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/SendOrder.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

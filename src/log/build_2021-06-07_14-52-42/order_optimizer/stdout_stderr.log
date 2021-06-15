@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target OrderOptimizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable OrderOptimizer[0m
+[ 50%] Built target OrderOptimizer
+[35m[1mScanning dependencies of target SendOrder[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o[0m
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/PoseStamped.h: No such file or directory
+    5 | #include [01;31m[K"geometry_msgs/PoseStamped.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/SendOrder.dir/build.make:63: CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/SendOrder.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

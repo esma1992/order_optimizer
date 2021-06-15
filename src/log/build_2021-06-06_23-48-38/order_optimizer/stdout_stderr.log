@@ -1,0 +1,17 @@
+[ 50%] Built target OrderOptimizer
+[ 75%] [32mBuilding CXX object CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o[0m
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:58:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::TimerBase::SharedPtr SendOrder::timer_[m[K’
+   58 |     rclcpp::TimerBase::SharedPtr [01;31m[Ktimer_[m[K;
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:48:32:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::TimerBase::SharedPtr SendOrder::timer_[m[K’
+   48 |   rclcpp::TimerBase::SharedPtr [01;36m[Ktimer_[m[K;
+      |                                [01;36m[K^~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:59:57:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr SendOrder::publisher_1[m[K’
+   59 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_1[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:49:55:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr SendOrder::publisher_1[m[K’
+   49 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;36m[Kpublisher_1[m[K;
+      |                                                       [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/SendOrder.dir/build.make:63: CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/SendOrder.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

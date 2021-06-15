@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target OrderOptimizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable OrderOptimizer[0m

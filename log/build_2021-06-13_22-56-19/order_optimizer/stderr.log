@@ -1,0 +1,4 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::printSolution(double*, int, order, double**)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:83:34:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K-Wparentheses[m[K]
+   83 |                 for (int k = 0; [01;35m[Kj=k < V-1[m[K; k++){
+      |                                 [01;35m[K~^~~~~~~~[m[K

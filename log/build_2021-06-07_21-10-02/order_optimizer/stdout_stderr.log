@@ -1,0 +1,21 @@
+[ 50%] Built target OrderOptimizer
+[35m[1mScanning dependencies of target SendOrder[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o[0m
+In file included from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/knapp/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:3[m[K:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In member function ‘[01m[Kvoid SendOrder::current_position_callback()[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:39:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kmessage_1[m[K’?
+   39 |             RCLCPP_INFO(this->get_logger(), "Value: '%s'", [01;31m[Kmessage_2[m[K.data.c_str());
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/SendOrder.dir/build.make:63: CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/SendOrder.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

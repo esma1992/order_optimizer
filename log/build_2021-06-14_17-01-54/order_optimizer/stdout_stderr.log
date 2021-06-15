@@ -1,0 +1,31 @@
+-- Found ament_cmake: 0.9.8 (/home/knapp/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/home/knapp/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/knapp/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/knapp/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.4 (/home/knapp/ros2_foxy/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found visualization_msgs: 2.0.4 (/home/knapp/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake)
+CMake Error at CMakeLists.txt:31 (find_package):
+  By not providing "Findblabla.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "blabla", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "blabla" with any
+  of the following names:
+
+    blablaConfig.cmake
+    blabla-config.cmake
+
+  Add the installation prefix of "blabla" to CMAKE_PREFIX_PATH or set
+  "blabla_DIR" to a directory containing one of the above files.  If "blabla"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/knapp/git/order_optimizer/build/order_optimizer/CMakeFiles/CMakeOutput.log".
+See also "/home/knapp/git/order_optimizer/build/order_optimizer/CMakeFiles/CMakeError.log".
+make: *** [Makefile:310: cmake_check_build_system] Error 1

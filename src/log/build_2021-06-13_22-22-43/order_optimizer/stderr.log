@@ -1,0 +1,7 @@
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::dijkstra(double**, int, int, order)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:95:13:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdist[m[K’ [[01;35m[K-Wvla[m[K]
+   95 |         int [01;35m[Kdist[m[K[V]; // The output array.  dist[i] will hold the shortest
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/subscriber_function.cpp:98:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KsptSet[m[K’ [[01;35m[K-Wvla[m[K]
+   98 |         bool [01;35m[KsptSet[m[K[V]; // sptSet[i] will be true if vertex i is included in shortest
+      |              [01;35m[K^~~~~~[m[K

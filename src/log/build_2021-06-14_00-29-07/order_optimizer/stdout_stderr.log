@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target OrderOptimizer[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable OrderOptimizer[0m
+/usr/bin/ld: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o: in function `std::experimental::filesystem::v1::__cxx11::directory_iterator::directory_iterator(std::experimental::filesystem::v1::__cxx11::path const&)':
+subscriber_function.cpp:(.text._ZNSt12experimental10filesystem2v17__cxx1118directory_iteratorC2ERKNS2_4pathE[_ZNSt12experimental10filesystem2v17__cxx1118directory_iteratorC5ERKNS2_4pathE]+0x2a): undefined reference to `std::experimental::filesystem::v1::__cxx11::directory_iterator::directory_iterator(std::experimental::filesystem::v1::__cxx11::path const&, std::experimental::filesystem::v1::directory_options, std::error_code*)'
+/usr/bin/ld: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o: in function `OrderOptimizer::next_order_callback(std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >)':
+subscriber_function.cpp:(.text._ZN14OrderOptimizer19next_order_callbackESt10shared_ptrIN8std_msgs3msg7String_ISaIvEEEE[_ZN14OrderOptimizer19next_order_callbackESt10shared_ptrIN8std_msgs3msg7String_ISaIvEEEE]+0x41a): undefined reference to `std::experimental::filesystem::v1::__cxx11::directory_iterator::operator*() const'
+/usr/bin/ld: subscriber_function.cpp:(.text._ZN14OrderOptimizer19next_order_callbackESt10shared_ptrIN8std_msgs3msg7String_ISaIvEEEE[_ZN14OrderOptimizer19next_order_callbackESt10shared_ptrIN8std_msgs3msg7String_ISaIvEEEE]+0x463): undefined reference to `std::experimental::filesystem::v1::__cxx11::directory_iterator::operator++()'
+/usr/bin/ld: CMakeFiles/OrderOptimizer.dir/src/subscriber_function.cpp.o: in function `std::experimental::filesystem::v1::__cxx11::path::path<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::experimental::filesystem::v1::__cxx11::path>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+subscriber_function.cpp:(.text._ZNSt12experimental10filesystem2v17__cxx114pathC2INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES3_EERKT_[_ZNSt12experimental10filesystem2v17__cxx114pathC5INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES3_EERKT_]+0x74): undefined reference to `std::experimental::filesystem::v1::__cxx11::path::_M_split_cmpts()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:132: OrderOptimizer] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

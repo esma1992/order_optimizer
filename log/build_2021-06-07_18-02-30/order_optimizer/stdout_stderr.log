@@ -1,0 +1,38 @@
+[ 50%] Built target OrderOptimizer
+[35m[1mScanning dependencies of target SendOrder[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o[0m
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:13:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   13 | std::vector<geometry_msgs::msg::PoseStamped::[01;35m[KConstPtr[m[K> current_pos;
+      |                                              [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/knapp/ros2_foxy/install/geometry_msgs/include/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:5[m[K:
+[01m[K/home/knapp/ros2_foxy/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:114:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  114 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In member function ‘[01m[Kvoid SendOrder::current_position_callback()[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:37:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<std::shared_ptr<const geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[Kpose[m[K’
+   37 |     message_1.data = "Current Positions x and y:" + std::to_string(current_pos.[01;31m[Kpose[m[K.position.x) + " and " + std::to_string(current_pos.pose.position.x);
+      |                                                                                [01;31m[K^~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:37:136:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<std::shared_ptr<const geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[Kpose[m[K’
+   37 | "Current Positions x and y:" + std::to_string(current_pos.pose.position.x) + " and " + std::to_string(current_pos.[01;31m[Kpose[m[K.position.x);
+      |                                                                                                                   [01;31m[K^~~~[m[K
+
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:76:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K*(argv + ((((sizetype)i) + 1) * 8))[m[K’, which is of non-class type ‘[01m[Kchar*[m[K’
+   76 |             id = std::stoi(argv[i+1].[01;31m[Kc_str[m[K());
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:85:42:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K*(argv + ((((sizetype)i) + 1) * 8))[m[K’, which is of non-class type ‘[01m[Kchar*[m[K’
+   85 |                 x =  std::stof(argv[i+1].[01;31m[Kc_str[m[K());
+      |                                          [01;31m[K^~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:95:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K*(argv + ((((sizetype)i) + 1) * 8))[m[K’, which is of non-class type ‘[01m[Kchar*[m[K’
+   95 |             y = std::stof(argv[i+1].[01;31m[Kc_str[m[K());
+      |                                     [01;31m[K^~~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:110:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<std::shared_ptr<const geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[Kpose[m[K’
+  110 |     current_pos.[01;31m[Kpose[m[K.position.x = x;
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/knapp/git/order_optimizer/src/order_optimizer/src/publisher_function.cpp:111:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<std::shared_ptr<const geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[Kpose[m[K’
+  111 |     current_pos.[01;31m[Kpose[m[K.position.y = y;
+      |                 [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/SendOrder.dir/build.make:63: CMakeFiles/SendOrder.dir/src/publisher_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/SendOrder.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

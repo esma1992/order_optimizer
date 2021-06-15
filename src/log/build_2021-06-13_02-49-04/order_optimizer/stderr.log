@@ -1,0 +1,4 @@
+make[2]: *** Deleting file 'OrderOptimizer'
+make[2]: *** [CMakeFiles/OrderOptimizer.dir/build.make:132: OrderOptimizer] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/OrderOptimizer.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt
