@@ -146,8 +146,21 @@ ros2 run order_optimizer SendOrder -id 1000001 -x 6.6 -y 58.2 -de "some descipti
 **Conclusion**
 This node is used to send order to our robot
 
+# My feedback
+There is a lot of things I need to fix and optimize:
+- change data types of publisher and sender for topics currentPosition and nextOrder
+- probably I should parse my code in .cpp and .h files
+- usage of TDD to have chance to do unittesting - in this case it hard - it is possible by mocking
+- delete specific order from yaml file after its path is already calculated/found - it makes more sense - then I can also check if order id is in one of files, if not I need to write some message: order already sent or not exists...
+- name of cpp files are not appropriate
+- I should research other algorithms or create my own logical alg. to find shortest path
 
+CI:
+- I have not used direct GIT actions yet... I started to read about that ....
+- what I know is to set a VM, connect Jenkins with VM and then execute what I will
+- unittests - I commented them (depedency issues)
 
-
-
-
+General:
+- should gain knowledge with cpp libraries and cmake files - now I see how much company-libraries I use and dont have to thing about them...
+- I deleted my VM from Mobile Robots - I could copy many things from there :(
+- Task was funny :)
