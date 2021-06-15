@@ -63,14 +63,10 @@ public:
                 "CurrentPosition", 0, std::bind(&OrderOptimizer::current_position_callback, this, _1));
         subscription_2 = this->create_subscription<std_msgs::msg::String>(
                 "NextOrder", 0, std::bind(&OrderOptimizer::next_order_callback, this, _1));
-
         publisher_1 = this->create_publisher<visualization_msgs::msg::MarkerArray>("order_path", 0);
-
-
     }
 
-private:
-    void fill_marker(){
+    void fill_marker() {
         rclcpp::Clock::SharedPtr my_time = std::make_shared<rclcpp::Clock>(RCL_ROS_TIME);
 
         rviz_marker.header.frame_id = "base_link";
@@ -91,43 +87,41 @@ private:
         rviz_marker.color.g = 1.0;
         rviz_marker.color.b = 0.0;
     }
-    void fill_markers(visualization_msgs::msg::MarkerArray &marker_array, struct product_part pp_, int position){
+
+    void fill_markers(visualization_msgs::msg::MarkerArray &marker_array, struct product_part pp_, int position) {
 
         rviz_marker.id = position;
-        if (position + 1 == matrix_size){
+        if (position + 1 == matrix_size) {
             rviz_marker.type = visualization_msgs::msg::Marker::CUBE;
-        }
-        else {
+        } else {
             rviz_marker.type = visualization_msgs::msg::Marker::CYLINDER;
         }
         rviz_marker.pose.position.x = pp_.cx;
         rviz_marker.pose.position.y = pp_.cy;
         marker_array.markers.push_back(rviz_marker);
-
     }
 
     // A utility function to find the vertex with minimum distance value, from
     // the set of vertices not yet included in shortest path tree
-    int minDistance(double *dist, bool sptSet[], int V) {
+    int min_distance(double *dist, bool sptSet[], int V) {
         // Initialize min value
         int min = INT_MAX, min_index;
 
         for (int v = 0; v < V; v++)
-            if (sptSet[v] == false && dist[v] <= min)
+            if (!sptSet[v] && dist[v] <= min)
                 min = dist[v], min_index = v;
 
         return min_index;
     }
 
     // A utility function to print the constructed distance array
-    void printSolution(double *dist, int V, struct order order_, double **distances) {
+    void print_and_publish_solution(double *dist, int V, struct order order_, double **distances) {
         //ros::Publisher vis_pub = node_handle.advertise<visualization_msgs::msg::MarkerArray>( "order_path", 0 );
-
 
         visualization_msgs::msg::MarkerArray marker_array;
         fill_marker();
 
-        std::cerr << "Working on order " << order_.order << "(" << order_description <<")"<<std::endl;
+        std::cerr << "Working on order " << order_.order << "(" << order_description << ")" << std::endl;
         for (int i = 0; i < V - 1; i++) {
             bool found = false;
             for (int j = 0; j < V - 1; j++) {
@@ -176,7 +170,7 @@ private:
         for (int count = 0; count < V - 1; count++) {
             // Pick the minimum distance vertex from the set of vertices not
             // yet processed. u is always equal to src in the first iteration.
-            int u = minDistance(dist, sptSet, V);
+            int u = min_distance(dist, sptSet, V);
 
             // Mark the picked vertex as processed
             sptSet[u] = true;
@@ -193,7 +187,7 @@ private:
         }
 
         // print the constructed distance array
-        printSolution(dist, V, order_, graph);
+    print_and_publish_solution(dist, V, order_, graph);
     }
 
     void fill_product_part(int id, std::string product, std::string part, double cx, double cy,
@@ -208,7 +202,7 @@ private:
     }
 
     void read_orders(std::string config_file, int order_id) {
-        std::cerr << config_file<< std::endl;
+        std::cerr << config_file << std::endl;
         YAML::Node config = YAML::LoadFile(config_file);
         for (YAML::iterator it = config.begin(); it != config.end(); ++it) {
             const YAML::Node &orderr = *it;
@@ -256,7 +250,7 @@ private:
     void create_distance_matrix(double **distances, struct order order_) {
         for (unsigned int i = 0; i < order_.products.size(); i++) {
             for (unsigned int j = 0; j < order_.products.size(); j++) {
-                std::cerr << i<<" "<< j<<std::endl;
+                std::cerr << i << " " << j << std::endl;
                 double x_distance = pow((order_.products.at(i).cx - order_.products.at(j).cx), 2);
                 double y_distance = pow((order_.products.at(i).cy - order_.products.at(j).cy), 2);
                 double euclidian_distance = sqrt(x_distance + y_distance);
@@ -280,29 +274,30 @@ private:
         std::string delimiter = "|";
         std::string order_id_str = s.substr(0, s.find(delimiter));
         int order_id = stoi(order_id_str);
-        order_description = s.substr(order_id_str.size()+delimiter.size(), s.size());
+        order_description = s.substr(order_id_str.size() + delimiter.size(), s.size());
 
         // part with threads
-        vector<std::string> order_files;
+        vector <std::string> order_files;
         if (auto dir = opendir(orders_path.c_str())) {
             while (auto f = readdir(dir)) {
                 if (!f->d_name || f->d_name[0] == '.')
                     continue; // Skip everything that starts with a dot
-                order_files.push_back(orders_path+"/"+f->d_name);
+                order_files.push_back(orders_path + "/" + f->d_name);
 
             }
             closedir(dir);
         }
 
-        if (order_files.size() == 0){
-            std::cerr << "No YAML files found. Program will be aborted. Please give the right config directory! "<<std::endl;
+        if (order_files.size() == 0) {
+            std::cerr << "No YAML files found. Program will be aborted. Please give the right config directory! "
+                      << std::endl;
             std::exit(1);
         }
 
         array<std::thread, 1> thread_objects;
         int f = 0;
         for (auto &t: thread_objects) {
-            t = std::thread ([=] {read_orders(order_files[f], order_id);});
+            t = std::thread([=] { read_orders(order_files[f], order_id); });
             f++;
         }
 
@@ -312,7 +307,7 @@ private:
 
         // TODO remove order from yaml file since it will be processd / only idea
 
-        std::cerr << "create matrix"<< std::endl;
+        std::cerr << "create matrix" << std::endl;
         // find all distances between order coordinates
         matrix_size = current_order.products.size();
         double **distances;
@@ -324,10 +319,10 @@ private:
         dijkstra(distances, 0, matrix_size, current_order);
 
         // free memory
-        for(int i = 0; i < matrix_size; ++i) {
-            delete [] distances[i];
+        for (int i = 0; i < matrix_size; ++i) {
+            delete[] distances[i];
         }
-        delete [] distances;
+        delete[] distances;
 
         // TODO clear current_order variable
     }
@@ -405,8 +400,6 @@ int main(int argc, char *argv[]) {
                 error_message = error_message + "Problem with order description. Please add it correct.";
             }
         }
-
-
     }
     if (parameters != 1) {
         std::cerr << error_message << std::endl;
